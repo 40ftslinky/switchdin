@@ -96,8 +96,8 @@
 /* careers hero overlay */
 .tweak-overlay-parallax-enabled [id*="careers-banner"].Index-page--has-image {
     background: linear-gradient(94deg,rgba(55, 66, 74,0.7) 0%,rgba(0,117,100,0.7)100%);
-
 }
+
 #collection-615e263518349219615763ca { 
 	  .Parallax-item:first-of-type figure{
 		background-color:rgba(0, 117, 100,0.7);
@@ -152,5 +152,8 @@
 /* careers next section */
 /* -------------- */
 
+.tweak-overlay-parallax-enabled [id*="careers-culture"].Index-page--has-image {
+    background: linear-gradient(94deg,rgba(97, 119, 134,0.63) 0%,rgba(97, 119, 134,0.0)100%);
+}
 
 /* ^^^ end careers page */
