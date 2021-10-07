@@ -8,6 +8,8 @@
 	--theme-dark-green-rgb: 0, 88, 79;
 	--theme-green: #007564;
 	--theme-green-rgb: 0, 117, 100;
+	--theme-bright-green: #00B299;
+	--theme-bright-green-rgb: 0,178, 153;
 } 
 */
 
@@ -46,7 +48,7 @@
 [id*="careers"] h2,
 [id*="careers"] h3,
 [id*="careers"] h4 {
-    color: #007564;
+    color: #00B299;
 }
 
 @media screen and (max-width: 640px){
@@ -72,6 +74,7 @@
 	font-size: 18px;
 	font-weight: 500;
 	border-radius: 8px;
+	background-color: #00B299;
 }
 
 /* careers header */
