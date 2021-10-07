@@ -28,11 +28,17 @@
 [id*="careers"] h2 {
 	font-size: 46px;
 	font-weight: 300;
-	line-height: 1.5;
+	line-height: 1.1;
 	letter-spacing: -0.5px;
 }
 [id*="careers"] h3 {
 	font-size: 32px;
+	font-weight: 300;
+	line-height: 1.3;
+	letter-spacing: -0.5px;
+}
+[id*="careers"] h4 {
+	font-size: 28px;
 	font-weight: 300;
 	line-height: 1.5;
 	letter-spacing: -0.5px;
@@ -125,6 +131,13 @@
 /* -------------- */
 
 #careers-values h1 {
+	text-align: left;
+}
+
+/* careers benefits section */
+/* -------------- */
+
+#careers-benefits h1 {
 	text-align: left;
 }
 
