@@ -81,6 +81,14 @@
 	background-color: #00B299;
 }
 
+@media screen and (max-width: 1024px){
+	#collection-615e263518349219615763ca {
+		.sqs-layout [class*=sqs-col] {
+			float: none !important;
+			width: auto !important;
+		}
+	}
+}
 /* careers header */
 /* -------------- */
 
