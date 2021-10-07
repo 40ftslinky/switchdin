@@ -1,0 +1,35 @@
+/* careers page */
+[id*="careers"] h1 {
+  font-size: 80px;
+  font-weight: 300;
+  letter-spacing: -0.5px;
+  text-align:center;
+}
+@media (min-width: 1200px){
+[id*="careers-banner"] .col.sqs-col-12.span-12 {
+    max-width: 60%;
+  float:none;
+  margin-left: auto;
+  margin-right:auto;
+}
+}
+/* careers hero overlay */
+.tweak-overlay-parallax-enabled [id*="careers-banner"].Index-page--has-image {
+    background: linear-gradient(94deg,rgba(55,66,74,0.7) 0%,rgba(0,117,100,0.7)100%);
+
+}
+#collection-615e263518349219615763ca { 
+  .Parallax-item:first-of-type figure{
+    background-color:rgba(0,117,100,0.7);
+
+  }
+}
+#collection-615e263518349219615763ca { 
+	.Parallax-item:first-of-type  figure img{
+      filter: grayscale(70%);
+      /*mix-blend-mode: overlay;*/
+  }
+}
+
+
+/* ^^^ end careers page */
