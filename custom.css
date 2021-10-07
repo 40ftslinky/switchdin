@@ -1,11 +1,21 @@
 /* careers page */
 /* ------------------------------------- */
 
+:root {
+	--theme-black: #37424a;
+	--theme-black-rgb: 55, 66, 74;
+	--theme-dark-green: #00584f;
+	--theme-dark-green-rgb: 0, 88, 79;
+	--theme-green: #007564;
+	--theme-green-rgb: 0, 117, 100;
+}
+
 /* careers header */
 /* -------------- */
 
 [id*="careers"] h1 {
 	font-size: 80px;
+	line-height: 1.1;
 	font-weight: 300;
 	letter-spacing: -0.5px;
 	text-align:center;
@@ -21,12 +31,12 @@
 
 /* careers hero overlay */
 .tweak-overlay-parallax-enabled [id*="careers-banner"].Index-page--has-image {
-    background: linear-gradient(94deg,rgba(55,66,74,0.7) 0%,rgba(0,117,100,0.7)100%);
+    background: linear-gradient(94deg,rgba(var(--theme-black-rgb),0.7) 0%,rgba(var(--theme-green-rgb),0.7)100%);
 
 }
 #collection-615e263518349219615763ca { 
 	  .Parallax-item:first-of-type figure{
-		background-color:rgba(0,117,100,0.7);
+		background-color:rgba(var(--theme-green-rgb),0.7);
 	  }
 }
 #collection-615e263518349219615763ca { 
@@ -40,6 +50,17 @@
 /* careers intro */
 /* -------------- */
 
+#switchdin-careers-intro {
+	font-size: 24px;
+	font-weight: 300;
+	line-height: 1.5;
+}
+#switchdin-careers-intro h2 {
+    font-size: 46px;
+    line-height: 1.1;
+    font-weight: 300;
+    color: var(--theme-green-rgb);
+}
 
 /* careers energy-innovators */
 /* -------------- */
