@@ -11,21 +11,56 @@
 } 
 */
 
-/* careers header */
+/* careers typography  */
 /* -------------- */
 
+[id*="careers"] p {
+	font-size: 22px;
+	font-weight: 300;
+	line-height: 1.5;
+}
 [id*="careers"] h1 {
 	font-size: 80px;
 	line-height: 1.1;
 	font-weight: 300;
 	letter-spacing: -0.5px;
-	text-align:center;
 }
+[id*="careers"] h2 {
+	font-size: 46px;
+	font-weight: 300;
+	line-height: 1.5;
+}
+[id*="careers"] h3 {
+	font-size: 32px;
+	font-weight: 300;
+	line-height: 1.5;
+}
+
 @media screen and (max-width: 640px){
+	[id*="careers"] p {
+		font-size: 18px;
+	}
 	[id*="careers"] h1 {
-		    font-size: 32px;
+		    font-size: 36px;
+	}
+	[id*="careers"] h2 {
+		font-size: 32px;
+	}
+	[id*="careers"] h3 {
+		font-size: 28px;
+	}
+	[id*="careers"] h4 {
+		font-size: 24px;
 	}
 }
+
+/* careers header */
+/* -------------- */
+
+[id*="careers-banner"] h1 {
+	text-align:center;
+}
+
 @media screen and (min-width: 1200px){
 	[id*="careers-banner"] .col.sqs-col-12.span-12 {
 		max-width: 60%;
@@ -52,39 +87,13 @@
 	}
 }
 
-[id*="careers"] {
-	font-size: 22px;
-	font-weight: 300;
-	line-height: 1.5;
-}
-@media screen and (max-width: 640px){
-	[id*="careers"] p {
-		font-size: 18px;
-	}
-}
 
 /* careers intro */
 /* -------------- */
 
-#careers-intro {
-	font-size: 22px;
-	font-weight: 300;
-	line-height: 1.5;
-}
+#careers-intro { }
 #careers-intro h2 {
-    font-size: 46px;
-    line-height: 1.1;
-    font-weight: 300;
     color: #007564;
-}
-
-@media screen and (max-width: 640px){
-	#careers-intro {
-		    font-size: 18px;
-	}
-	#careers-intro h2 {
-	    font-size: 24px;
-	}
 }
 
 /* careers energy-innovators */
@@ -93,33 +102,20 @@
 
 #careers-energy-innovators {
 	background: #46555f;
+}
+#careers-energy-innovators p {
 	color: #fff;
-	font-size: 22px;
-	font-weight: 300;
-	line-height: 1.5;
 }
 
 #careers-energy-innovators h2 {
-    font-size: 46px;
-    line-height: 1.1;
-    font-weight: 300;
     color: #fff;
 }
 
-@media screen and (max-width: 640px){
-	#careers-energy-innovators {
-		    font-size: 18px;
-	}
-	#careers-energy-innovators h2 {
-	    font-size: 24px;
-	}
-}
 
 /* careers values section */
 /* -------------- */
 
 #careers-values h1 {
-	font-weight: 300;
 	text-align: left;
 }
 
