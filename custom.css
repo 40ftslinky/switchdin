@@ -21,11 +21,11 @@
 	letter-spacing: -0.5px;
 	text-align:center;
 }
-@media screen and (max-width: 640px){
+/* @media screen and (max-width: 640px){
 	[id*="careers"] h1 {
 		    font-size: 32px;
 	}
-}
+} */
 @media screen and (min-width: 1200px){
 	[id*="careers-banner"] .col.sqs-col-12.span-12 {
 		max-width: 60%;
