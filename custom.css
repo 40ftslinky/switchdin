@@ -82,13 +82,13 @@
 }
 
 @media screen and (max-width: 1024px){
-	#collection-615e263518349219615763ca {
-		.sqs-layout [class*=sqs-col] {
+	#collection-615e263518349219615763ca .sqs-layout [class*=sqs-col] {
 			float: none !important;
 			width: auto !important;
-		}
 	}
 }
+
+
 /* careers header */
 /* -------------- */
 
@@ -169,4 +169,18 @@
     background: linear-gradient(94deg,rgba(97, 119, 134,0.99) 0%,rgba(97, 119, 134,0.27)100%);
 }
 
+/* careers working-here section */
+/* -------------- */
+
+.tweak-overlay-parallax-enabled [id*="careers-working-here"].Index-page--has-image {
+    background: linear-gradient(94deg,rgba(55, 66, 74,0.7) 0%,rgba(0,117,100,0.7)100%);
+}
+
+/* careers join-us section */
+/* -------------- */
+
+.tweak-overlay-parallax-enabled [id*="careers-join-us"].Index-page--has-image {
+    background: rgba(97, 119, 134, 0.7);
+    /* background: linear-gradient(94deg,rgba(97, 119, 134,0.99) 0%,rgba(97, 119, 134,0.27)100%); */
+}
 /* ^^^ end careers page */
