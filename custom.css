@@ -54,6 +54,12 @@
 	}
 }
 
+[id*="careers"] a[id*="button"]{
+	color:#fff;
+	font-size: 18px;
+	font-weight: 500;
+}
+
 /* careers header */
 /* -------------- */
 
