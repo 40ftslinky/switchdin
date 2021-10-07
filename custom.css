@@ -50,6 +50,10 @@
 [id*="careers"] h4 {
     color: #00B299;
 }
+[id*="careers"] h4 {
+	margin-top: 0;
+	margin-bottom: 0;
+}
 
 @media screen and (max-width: 640px){
 	[id*="careers"] p {
