@@ -29,11 +29,13 @@
 	font-size: 46px;
 	font-weight: 300;
 	line-height: 1.5;
+	letter-spacing: -0.5px;
 }
 [id*="careers"] h3 {
 	font-size: 32px;
 	font-weight: 300;
 	line-height: 1.5;
+	letter-spacing: -0.5px;
 }
 
 @media screen and (max-width: 640px){
