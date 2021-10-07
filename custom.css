@@ -26,7 +26,7 @@
 		    font-size: 32px;
 	}
 }
-@media (min-width: 1200px){
+@media screen and (min-width: 1200px){
 	[id*="careers-banner"] .col.sqs-col-12.span-12 {
 		max-width: 60%;
 		float:none;
