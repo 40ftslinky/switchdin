@@ -52,6 +52,16 @@
 	}
 }
 
+[id*="switchdin-careers"] {
+	font-size: 22px;
+	font-weight: 300;
+	line-height: 1.5;
+}
+@media screen and (max-width: 640px){
+	[id*="switchdin-careers"] p {
+		font-size: 18px;
+	}
+}
 
 /* careers intro */
 /* -------------- */
@@ -79,6 +89,7 @@
 
 /* careers energy-innovators */
 /* -------------- */
+
 
 #switchdin-careers-energy-innovators {
 	background: #46555f;
