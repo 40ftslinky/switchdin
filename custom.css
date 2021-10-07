@@ -56,7 +56,7 @@
 	}
 }
 
-[id*="careers"] a[id*="button"]{
+[id*="careers"] a[class*="button"]{
 	color:#fff;
 	font-size: 18px;
 	font-weight: 500;
