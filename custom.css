@@ -161,6 +161,12 @@
 	text-align: left;
 }
 
+
+.tweak-overlay-parallax-enabled [id*="careers-benefits"].Index-page--has-image {
+	background: rgba(97, 119, 134, 1);
+	background: linear-gradient(0deg, rgba(55,66,74,1) 0%, rgba(0,117,100,0) 100%);
+}
+
 /* careers next section */
 /* -------------- */
 
