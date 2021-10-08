@@ -1,0 +1,27 @@
+/* mega menu css */
+
+/********* Mega menu code *********/
+/* Adjust width and vertical position */
+.Header-nav--primary .Header-nav-inner .Header-nav-item--folder:nth-child(4) .Header-nav-folder {
+    width: 90vw;
+    position: fixed;
+    left: 5vw;
+    top: 60px;
+    display: none;
+}
+
+/* Reveal menu when someone hovers */
+.Header-nav--primary .Header-nav-inner .Header-nav-item--folder:nth-child(4):hover .Header-nav-folder {
+    display: block !important;
+}
+
+/* Hide the default dropdown */
+.Header-nav--primary .Header-nav-inner .Header-nav-item--folder:nth-child(4) .Header-nav-folder > a {
+    display: none;
+}
+
+/* Make links not underline, and give more vertical spacing */
+.Footer-blocks .sqs-block-html p a{
+  border-bottom: 0px;
+  line-height: 2em;
+}
