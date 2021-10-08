@@ -26,8 +26,16 @@
   line-height: 2em;
 }
 
-.Header-nav-item:nth-of-type(6) {
+a.Header-nav-item:nth-of-type(2):before {
     font-family: "Font Awesome 6 Free";
     font-weight: 900;
     content: "\f502";
+    visibility: visible;
+    position: absolute;
+    top: 9px;
+    left: 0;
+}
+a.Header-nav-item:nth-of-type(2) {
+  visibility: hidden;
+    position: relative;
 }
