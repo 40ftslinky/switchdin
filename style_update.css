@@ -1,0 +1,14 @@
+/* https://wolf-panda-5twt.squarespace.com */
+
+h1 {
+    max-width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h2.subtitle {
+    font-size: 22px;
+    font-weight: 500;
+    line-height: 30px;
+    text-align: center
+}
