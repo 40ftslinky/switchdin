@@ -178,7 +178,7 @@
 
 /*  */
 
-.tweak-overlay-parallax-enabled [id*="sunlocker-sunlocker-why-choose-switchdin"].Index-page--has-image {
+.tweak-overlay-parallax-enabled [id*="sunlocker-why-choose-switchdin"].Index-page--has-image {
     background: rgb(0,117,100);
     background: linear-gradient(90deg, rgba(0,117,100,0.7) 0%, rgba(55,66,74,0.7) 100%);
 }
@@ -195,6 +195,6 @@
 	}
 }
 
-#sunlocker-sunlocker-why-choose-switchdin h2 {
+#sunlocker-why-choose-switchdin h2 {
     color:#fff;
 }
