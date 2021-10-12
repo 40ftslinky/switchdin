@@ -1,0 +1,112 @@
+/* sunlocker page */
+/* ------------------------------------- */
+/* 
+:root {
+	--theme-black: #37424a;
+	--theme-black-rgb: 55, 66, 74;
+	--theme-dark-green: #00584f;
+	--theme-dark-green-rgb: 0, 88, 79;
+	--theme-green: #007564;
+	--theme-green-rgb: 0, 117, 100;
+	--theme-bright-green: #00B299;
+	--theme-bright-green-rgb: 0,178, 153;
+} 
+*/
+
+/* sunlocker typography  */
+/* -------------- */
+
+[id*="sunlocker"] p.large {
+	font-size: 22px;
+	font-weight: 300;
+	line-height: 1.5;
+}
+
+[id*="sunlocker"] p {
+	font-size: 18px;
+	font-weight: 300;
+	line-height: 1.5;
+}
+[id*="sunlocker"] h1 {
+	font-size: 80px;
+	line-height: 1.1;
+	font-weight: 300;
+	letter-spacing: -0.5px;
+}
+[id*="sunlocker"] h2 {
+	font-size: 46px;
+	font-weight: 300;
+	line-height: 1.1;
+	letter-spacing: -0.5px;
+}
+[id*="sunlocker"] h3 {
+	font-size: 32px;
+	font-weight: 300;
+	line-height: 1.3;
+	letter-spacing: -0.5px;
+}
+[id*="sunlocker"] h4 {
+	font-size: 28px;
+	font-weight: 300;
+	line-height: 1.5;
+	letter-spacing: -0.5px;
+}
+[id*="sunlocker"] h2,
+[id*="sunlocker"] h3,
+[id*="sunlocker"] h4 {
+    color: #00B299;
+}
+[id*="sunlocker"] h4 {
+	margin-top: 0;
+	margin-bottom: 0;
+}
+
+@media screen and (max-width: 640px){
+	[id*="sunlocker"] p {
+		font-size: 18px;
+	}
+	[id*="sunlocker"] h1 {
+		    font-size: 36px;
+	}
+	[id*="sunlocker"] h2 {
+		font-size: 32px;
+	}
+	[id*="sunlocker"] h3 {
+		font-size: 28px;
+	}
+	[id*="sunlocker"] h4 {
+		font-size: 24px;
+	}
+}
+
+[id*="sunlocker"] a[class*="button"]{
+	color:#fff;
+	font-size: 18px;
+	font-weight: 500;
+	border-radius: 8px;
+	background-color: #00B299;
+}
+
+@media screen and (max-width: 1024px){
+	#collection-615e263518349219615763ca .sqs-layout [class*=sqs-col] {
+			float: none !important;
+			width: auto !important;
+	}
+}
+
+
+/* sunlocker header */
+/* -------------- */
+
+[id*="sunlocker-banner"] h1 {
+	text-align:center;
+}
+
+@media screen and (min-width: 1200px){
+	[id*="sunlocker-banner"] .col.sqs-col-12.span-12 {
+		max-width: 60%;
+		float:none;
+		margin-left: auto;
+		margin-right:auto;
+	}
+}
