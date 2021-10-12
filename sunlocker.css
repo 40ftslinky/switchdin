@@ -40,12 +40,12 @@
 [id*="sunlocker"] h1 {
 	font-size: 80px;
 	line-height: 1.1;
-	font-weight: 300;
+	font-weight: 300 !important;
 	letter-spacing: -0.5px;
 }
 [id*="sunlocker"] h2 {
 	font-size: 46px;
-	font-weight: 300;
+	font-weight: 300 !important; 
 	line-height: 1.1;
 	letter-spacing: -0.5px;
     color: var(--theme-black);
@@ -60,7 +60,7 @@
 
 [id*="sunlocker"] h3 {
 	font-size: 32px;
-	font-weight: 300;
+	font-weight: 300 !important;
 	line-height: 1.3;
 	letter-spacing: -0.5px;
 }
