@@ -1,6 +1,6 @@
 /* sunlocker page */
 /* ------------------------------------- */
-/* 
+
 :root {
 	--theme-black: #37424a;
 	--theme-black-rgb: 55, 66, 74;
@@ -11,7 +11,7 @@
 	--theme-bright-green: #00B299;
 	--theme-bright-green-rgb: 0,178, 153;
 } 
-*/
+
 
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;500;700&display=swap');
 
@@ -20,6 +20,10 @@
 
 #collection-6165033971066518b8c25e75 {
     font-family: Roboto;
+}
+
+._white {
+    color: #fff;
 }
 
 [id*="sunlocker"] p.large {
@@ -44,6 +48,7 @@
 	font-weight: 300;
 	line-height: 1.1;
 	letter-spacing: -0.5px;
+    color: var(--theme-black);
 }
 
 [id*="sunlocker"] h2.subtitle {
