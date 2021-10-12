@@ -13,7 +13,7 @@
 } 
 
 
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap');
 
 /* sunlocker typography  */
 /* -------------- */
@@ -28,13 +28,13 @@
 
 [id*="sunlocker"] p.large {
 	font-size: 22px;
-	font-weight: 300;
+	font-weight: 300 !important;
 	line-height: 1.5;
 }
 
 [id*="sunlocker"] p {
 	font-size: 18px;
-	font-weight: 300;
+	font-weight: 300 !important;
 	line-height: 1.5;
 }
 [id*="sunlocker"] h1 {
@@ -53,7 +53,7 @@
 
 [id*="sunlocker"] h2.subtitle {
     font-size: 22px;
-    font-weight: 500;
+    font-weight: 400;
     line-height: 30px;
     text-align: center
 }
