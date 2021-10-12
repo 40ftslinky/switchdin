@@ -151,6 +151,7 @@
 	}
 }
 
+
 /* too much solar */
 
 #sunlocker-too-much-solar {
@@ -160,4 +161,11 @@
 .Parallax-item:nth-of-type(2) figure img {
     filter: grayscale(70%);
     /*mix-blend-mode: overlay;*/
+}
+
+
+/* sunlocker-today-tomorrow */
+
+#sunlocker-today-tomorrow h3 {
+    color:#fff;
 }
