@@ -127,7 +127,7 @@
 
 
 /* sunlocker hero overlay */
-.tweak-overlay-parallax-enabled [id*="careers-banner"].Index-page--has-image {
+.tweak-overlay-parallax-enabled [id*="sunlocker-banner"].Index-page--has-image {
     background: linear-gradient(94deg,rgba(55, 66, 74,0.7) 0%,rgba(0,117,100,0.7)100%);
 }
 
