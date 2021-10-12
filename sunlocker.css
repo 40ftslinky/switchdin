@@ -23,7 +23,7 @@
 }
 
 ._white {
-    color: #fff;
+    color: #fff !important;
 }
 
 [id*="sunlocker"] p.large {
