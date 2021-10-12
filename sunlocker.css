@@ -163,9 +163,34 @@
     /*mix-blend-mode: overlay;*/
 }
 
+/* sunlocker-too-much-solar */
+
+#sunlocker-too-much-solar h2 {
+    color:#fff;
+}
+
 
 /* sunlocker-today-tomorrow */
 
 #sunlocker-today-tomorrow h2 {
     color:#fff;
+}
+
+/*  */
+
+.tweak-overlay-parallax-enabled [id*="sunlocker-sunlocker-why-choose-switchdin"].Index-page--has-image {
+    background: rgb(0,117,100);
+    background: linear-gradient(90deg, rgba(0,117,100,0.7) 0%, rgba(55,66,74,0.7) 100%);
+}
+
+#collection-6165033971066518b8c25e75 { 
+	  .Parallax-item:last-of-type figure{
+		background-color:rgba(0, 117, 100,0.7);
+	  }
+}
+#collection-6165033971066518b8c25e75 { 
+	.Parallax-item:last-of-type  figure img{
+		filter: grayscale(70%);
+		/*mix-blend-mode: overlay;*/
+	}
 }
