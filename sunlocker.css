@@ -149,8 +149,8 @@
 #sunlocker-too-much-solar {
     background-color: rgba(97,119,133,0.9);
 }
-#collection-6165033971066518b8c25e75 >
-	.Parallax-item:nth-of-type(2) figure img {
-		filter: grayscale(70%);
-		/*mix-blend-mode: overlay;*/
-	}
+#collection-6165033971066518b8c25e75 *
+.Parallax-item:nth-of-type(2) figure img {
+    filter: grayscale(70%);
+    /*mix-blend-mode: overlay;*/
+}
