@@ -141,16 +141,14 @@
  }
  
 /* overview hero overlay */
-[id*="overview-banner"].Index-page--has-image .Index-page-content {
+#overview-banner.Index-page--has-image .Index-page-content {
     padding-bottom: 0;
 }
-div#yui_3_17_2_1_1634119782171_72 {
+#overview-banner.Index-page--has-image .image-block {
    max-height: 50vh;
    padding-bottom: 0;
-
 }
-div#yui_3_17_2_1_1634119782171_72 img.thumb-image.loaded {
-
+#overview-banner. img.thumb-image.loaded {
    max-width: 35vw;
    top: unset;
    bottom: 0;
