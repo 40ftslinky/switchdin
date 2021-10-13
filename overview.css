@@ -168,6 +168,7 @@ div#yui_3_17_2_1_1634119782171_72 img.thumb-image.loaded {
  @media screen and (max-width: 1024px){
     .tweak-overlay-parallax-enabled [id*="overview-banner"].Index-page--has-image {
         min-height: 100vh;
+        height: auto;
     }
 }
  #collection-6166acdd14fab47b2af0032b * 
