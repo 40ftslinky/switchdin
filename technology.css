@@ -137,7 +137,7 @@
  .tweak-overlay-parallax-enabled [id*="technology-banner"].Index-page--has-image {
      background: rgb(0,117,100);
      background: linear-gradient(90deg, rgba(0,117,100,0.7) 0%, rgba(55,66,74,0.7) 100%);
-     min-height: calc(80vh - 50px) !important;
+     min-height: calc(75vh - 50px) !important;
  }
  
  #collection-61664a1b2cc51b68a415b20e * 
@@ -165,14 +165,18 @@
  /* technology-droplets */
 
  #technology-droplets .row.sqs-row {
-    width: 80%;
-    max-width: 1200px;
+    /* width: 80%; */
+    max-width: 66.666%;
     margin: 0 auto;
 }
 
  #technology-droplets .sqs-col-4 {
-    width: 28.3333%;
-     margin-right:5%;
+    width: calc(100 / 3% - 10%);
+    margin-right:5%;
+ }
+ #technology-droplets [class*=sqs-col]:last-child {
+    padding-right: 0 !important;
+    margin-right: 0 !important;
  }
 
  #technology-droplets h4 {
