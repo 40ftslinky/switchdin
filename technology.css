@@ -179,7 +179,7 @@
      color: #37424a;
      text-align: center;
  }
- #technology-droplets .sqs-block-content {
+ #technology-droplets .sqs-col-4 .sqs-block-content {
     display: flex;
     justify-content: center;
  }
