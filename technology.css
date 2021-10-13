@@ -1,0 +1,180 @@
+/* technology page */
+/* ------------------------------------- */
+/* 
+:root {
+	--theme-black: #37424a;
+	--theme-black-rgb: 55, 66, 74;
+	--theme-dark-green: #00584f;
+	--theme-dark-green-rgb: 0, 88, 79;
+	--theme-green: #007564;
+	--theme-green-rgb: 0, 117, 100;
+	--theme-bright-green: #00B299;
+	--theme-bright-green-rgb: 0,178, 153;
+} 
+ */
+
+ @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap');
+
+ /* technology typography  */
+ /* -------------- */
+ 
+ #collection-6165033971066518b8c25e75 {
+     font-family: Roboto;
+ }
+ 
+ ._white {
+     color: #fff !important;
+ }
+ 
+ [id*="technology"] p.large {
+     font-size: 22px;
+     font-weight: 300;
+     line-height: 1.5;
+ }
+ 
+ [id*="technology"] p {
+     font-size: 18px;
+     font-weight: 300;
+     line-height: 1.5;
+ }
+ [id*="technology"] h1 {
+     font-size: 80px;
+     line-height: 1.1;
+     font-weight: 300;
+     letter-spacing: -0.5px;
+ }
+ [id*="technology"] h2 {
+     font-size: 46px;
+     font-weight: 300; 
+     line-height: 1.1;
+     letter-spacing: -0.5px;
+     color: var(--theme-black);
+ }
+ 
+ [id*="technology"] h2.subtitle {
+     font-size: 22px;
+     font-weight: 400;
+     line-height: 30px;
+     text-align: center
+ }
+ 
+ [id*="technology"] h3 {
+     font-size: 32px;
+     font-weight: 300;
+     line-height: 1.3;
+     letter-spacing: -0.5px;
+ }
+ [id*="technology"] h4 {
+     font-size: 28px;
+     font-weight: 300;
+     line-height: 1.5;
+     letter-spacing: -0.5px;
+ }
+ [id*="technology"] h2 {
+    color: #37424a;
+ }
+ [id*="technology"] h3,
+ [id*="technology"] h4 {
+     color: #00B299;
+ }
+ [id*="technology"] h4 {
+     margin-top: 0;
+     margin-bottom: 0;
+ }
+ 
+ @media screen and (max-width: 640px){
+     [id*="technology"] p {
+         font-size: 18px;
+     }
+     [id*="technology"] h1 {
+             font-size: 36px;
+     }
+     [id*="technology"] h2 {
+         font-size: 32px;
+     }
+     [id*="technology"] h3 {
+         font-size: 28px;
+     }
+     [id*="technology"] h4 {
+         font-size: 24px;
+     }
+ }
+ 
+ [id*="technology"] a[class*="button"]{
+     color:#fff;
+     font-size: 18px;
+     font-weight: 500;
+     border-radius: 8px;
+     background-color: #00B299;
+ }
+ 
+ @media screen and (max-width: 1024px){
+     #collection-6165033971066518b8c25e75 .sqs-layout [class*=sqs-col] {
+             float: none !important;
+             width: auto !important;
+     }
+ }
+ 
+ 
+ /* technology header */
+ /* -------------- */
+ 
+ [id*="technology-banner"] h1 {
+     text-align:center;
+ }
+ 
+ @media screen and (min-width: 1200px){
+     [id*="technology-banner"] .col.sqs-col-12.span-12 {
+         max-width: 60%;
+         float:none;
+         margin-left: auto;
+         margin-right:auto;
+     }
+ }
+ 
+ 
+ /* technology hero overlay */
+ .tweak-overlay-parallax-enabled [id*="technology-banner"].Index-page--has-image {
+     background: rgb(0,117,100);
+     background: linear-gradient(90deg, rgba(0,117,100,0.7) 0%, rgba(55,66,74,0.7) 100%);
+ }
+ 
+ #collection-6165033971066518b8c25e75 { 
+       .Parallax-item:first-of-type figure{
+         background-color:rgba(0, 117, 100,0.7);
+       }
+ }
+ #collection-6165033971066518b8c25e75 { 
+     .Parallax-item:first-of-type  figure img{
+         filter: grayscale(70%);
+         /*mix-blend-mode: overlay;*/
+     }
+ }
+ 
+ 
+ /* section #2 */
+ 
+ #technology-______ {
+     background-color: rgba(97,119,133,0.9);
+ }
+ #collection-6165033971066518b8c25e75 *
+ .Parallax-item:nth-of-type(2) figure img {
+     filter: grayscale(70%);
+     /*mix-blend-mode: overlay;*/
+ }
+ 
+ /*  #technology-______ */
+ 
+ #technology-______ h2 {
+     color:#fff;
+ }
+ 
+ 
+ /*  #technology-______ */
+ 
+ #technology-______ h2 {
+     color:#fff;
+ }
+ 
+ /*  */
+ 
