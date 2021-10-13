@@ -196,6 +196,13 @@ div#yui_3_17_2_1_1634119782171_72 img.thumb-image.loaded {
 #overview-communication {
     background: #f6f6f6;
 }
+#overview-communication .slide a img {
+    mix-blend-mode: luminosity;
+}
+
+#overview-communication .slide a:hover img {
+    mix-blend-mode: unset;
+}
 
 
 /* ----------------- */
