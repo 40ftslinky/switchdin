@@ -203,7 +203,7 @@
     max-width: 150px;
  }
  
- #technology-real-world section.Index-page--has-image a.sqs-block-button-element {
+ #technology-real-world.Index-page--has-image a.sqs-block-button-element {
     color: #fff !important;
     border: 1px solid #00b3a4 !important;
     color: #fff;
@@ -213,7 +213,7 @@
     background-color: #00B299;
     box-shadow: 0 2px 0 0 #008a7e;
  }
-#technology-real-world section.Index-page--has-image a.sqs-block-button-element--medium:hover {
+#technology-real-world.Index-page--has-image a.sqs-block-button-element--medium:hover {
     background-color: #00c2b2;
 }
  
