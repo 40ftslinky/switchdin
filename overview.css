@@ -194,6 +194,20 @@
     }
 }
 
+ /* break image */
+ 
+ #overview-break {
+    background-color: rgba(97,119,133,0.9);
+}
+.tweak-overlay-parallax-enabled [id*="overview-break"].Index-page--has-image {
+    background: rgb(0,117,100);
+    background: linear-gradient(90deg, rgba(0,117,100,0.7) 0%, rgba(55,66,74,0.7) 100%);
+}
+#collection-6166acdd14fab47b2af0032b *
+.Parallax-item:nth-of-type(2) figure img {
+    filter: grayscale(90%);
+    /*mix-blend-mode: overlay;*/
+}
  /* section #2 */
  
  #overview-______ {
