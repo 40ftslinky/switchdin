@@ -127,7 +127,7 @@
  /* -------------- */
  
  [id*="overview-banner"] h1 {
-     text-align:center;
+     text-align:left;
  }
  
  @media screen and (min-width: 1200px){
@@ -143,17 +143,27 @@
  /* overview hero overlay */
  .tweak-overlay-parallax-enabled [id*="overview-banner"].Index-page--has-image {
      background: rgb(0,117,100);
-     background: linear-gradient(90deg, rgba(0,117,100,0.7) 0%, rgba(55,66,74,0.7) 100%);
-     min-height: calc(75vh - 50px) !important;
+     background: linear-gradient(0deg, rgba(0,117,100,1) 0%, rgba(55,66,74,1) 100%);
+     /* min-height: calc(75vh - 50px) !important; */
+     height: 100vh;
  }
- 
+ div#yui_3_17_2_1_1634119782171_72 {
+    max-height: 50vh;
+}
+div#yui_3_17_2_1_1634119782171_72 img.thumb-image.loaded {
+
+    max-width: 35vw;
+    top: unset;
+    bottom: 0;
+}
+
  #collection-6166acdd14fab47b2af0032b * 
 .Parallax-item:first-of-type figure{
-    background-color:rgba(0, 117, 100,0.7);
+    /* background-color:rgba(0, 117, 100,0.7); */
 }
 #collection-6166acdd14fab47b2af0032b * 
 .Parallax-item:first-of-type  figure img{
-    filter: grayscale(70%);
+    /* filter: grayscale(70%); */
     /*mix-blend-mode: overlay;*/
 }
  
