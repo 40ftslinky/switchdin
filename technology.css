@@ -74,7 +74,14 @@
      line-height: 1.5;
      letter-spacing: -0.5px;
  }
- [id*="technology"] h2 {
+ [id*="technology"] h4 {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5;
+    letter-spacing: -0.5px;
+}
+[id*="technology"] h2,
+[id*="technology"] h5 {
     color: #37424a;
  }
  [id*="technology"] h3,
