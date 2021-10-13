@@ -163,11 +163,11 @@ div#yui_3_17_2_1_1634119782171_72 img.thumb-image.loaded {
      background: rgb(0,117,100);
      background: linear-gradient(0deg, rgba(0,117,100,1) 0%, rgba(55,66,74,1) 100%);
      /* min-height: calc(75vh - 50px) !important; */
-     min-height: 100vh;
+     height: 100vh;
  }
  @media screen and (max-width: 1024px){
     .tweak-overlay-parallax-enabled [id*="overview-banner"].Index-page--has-image {
-        max-height: 100vh;
+        min-height: 100vh;
     }
 }
  #collection-6166acdd14fab47b2af0032b * 
