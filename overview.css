@@ -40,6 +40,7 @@
  }
  [id*="overview"] h1 {
      font-size: 80px;
+     font-size: min(max(36px, 4.5vw), 80px);
      line-height: 1.1;
      font-weight: 300;
      letter-spacing: -0.5px;
@@ -131,8 +132,8 @@
  }
  
  @media screen and (min-width: 1200px){
-     [id*="overview-banner"] .col.sqs-col-12.span-12 {
-         max-width: 60%;
+     [id*="overview-banner"] .columns-12 {
+         max-width: 1200px;
          float:none;
          margin-left: auto;
          margin-right:auto;
