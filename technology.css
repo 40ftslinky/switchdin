@@ -161,6 +161,20 @@
      /*mix-blend-mode: overlay;*/
  }
  
+ /* technology-droplets */
+
+ #technology-droplets h4 {
+     color: #37424a;
+     text-align: center;
+ }
+ #technology-droplets .sqs-block-content {
+    display: flex;
+    justify-content: center;
+ }
+ #technology-droplets svg{
+    max-width: 200px;
+ }
+
  /*  #technology-______ */
  
  #technology-______ h2 {
