@@ -40,7 +40,7 @@
  }
  [id*="overview"] h1 {
      font-size: 80px;
-     font-size: min(max(36px, 4.5vw), 80px);
+     font-size: min(max(50px, 5vw), 80px);
      line-height: 1.1;
      font-weight: 300;
      letter-spacing: -0.5px;
@@ -182,68 +182,28 @@ div#yui_3_17_2_1_1634119782171_72 img.thumb-image.loaded {
      /*mix-blend-mode: overlay;*/
  }
  
- /* overview-droplets */
+ /* #overview-problem-solved */
+
+
+/*  #overview-oreder-chaos */
+
+#overview-order-chaos h2 {
+    color:#fff;
+}
+
+/* overview-communication */
  
- #overview-droplets{
+#overview-communication {
     background: #f6f6f6;
 }
- #overview-droplets .row.sqs-row {
-    /* width: 80%; */
-    max-width: 66.666%;
-    margin: 0 auto;
+
+
+/* ----------------- */
+/*  #overview-______ */
+
+#overview-______ h2 {
+    color:#fff;
 }
 
- #overview-droplets .sqs-col-4 {
-    width: calc((100% / 3) - (10% / 3))!important;
-    margin-right:5%;
- }
- #overview-droplets [class*=sqs-col]:last-child {
-    padding-right: 0 !important;
-    margin-right: 0 !important;
- }
-
- #overview-droplets h4 {
-     color: #37424a;
-     text-align: center;
- }
- #overview-droplets .sqs-col-4 .sqs-block-content {
-    display: flex;
-    justify-content: center;
- }
- #overview-droplets svg{
-    max-width: 200px;
- }
-
-
- 
- /*  #overview-real-world */
- 
- #overview-real-world h2{
-     color:#fff;
- }
- #overview-real-world svg{
-    max-width: 150px;
- }
- 
- #overview-real-world.Index-page--has-image a.sqs-block-button-element {
-    color: #fff !important;
-    border: 1px solid #00b3a4 !important;
-    color: #fff;
-    font-size: 18px;
-    font-weight: 500;
-    border-radius: 8px;
-    background-color: #00B299;
-    box-shadow: 0 2px 0 0 #008a7e;
- }
-#overview-real-world.Index-page--has-image a.sqs-block-button-element--medium:hover {
-    background-color: #00c2b2;
-}
- 
- /*  #overview-______ */
- 
- #overview-______ h2 {
-     color:#fff;
- }
- 
- /*  */
+/*  */
  
