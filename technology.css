@@ -139,17 +139,15 @@
      background: linear-gradient(90deg, rgba(0,117,100,0.7) 0%, rgba(55,66,74,0.7) 100%);
  }
  
- #collection-61664a1b2cc51b68a415b20e { 
-       .Parallax-item:first-of-type figure{
-         background-color:rgba(0, 117, 100,0.7);
-       }
- }
- #collection-61664a1b2cc51b68a415b20e { 
-     .Parallax-item:first-of-type  figure img{
-         filter: grayscale(70%);
-         /*mix-blend-mode: overlay;*/
-     }
- }
+ #collection-61664a1b2cc51b68a415b20e * 
+.Parallax-item:first-of-type figure{
+    background-color:rgba(0, 117, 100,0.7);
+}
+#collection-61664a1b2cc51b68a415b20e * 
+.Parallax-item:first-of-type  figure img{
+    filter: grayscale(70%);
+    /*mix-blend-mode: overlay;*/
+}
  
  
  /* section #2 */
