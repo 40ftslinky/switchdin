@@ -180,20 +180,19 @@
 
 .tweak-overlay-parallax-enabled [id*="sunlocker-why-choose-switchdin"].Index-page--has-image {
     background: rgb(0,117,100);
-    background: linear-gradient(90deg, rgba(0,117,100,0.7) 0%, rgba(55,66,74,0.7) 100%);
+    background: linear-gradient(90deg, rgba(0,117,100,0.8) 0%, rgba(55,66,74,0.8) 100%);
 }
 
-#collection-6165033971066518b8c25e75 { 
-	  .Parallax-item:last-of-type figure{
-		background-color:rgba(0, 117, 100,0.7);
-	  }
+#collection-6165033971066518b8c25e75 *
+.Parallax-item:nth-of-type(3) figure{
+    background-color:rgba(0, 117, 100,0.7);
 }
-#collection-6165033971066518b8c25e75 { 
-	.Parallax-item:last-of-type  figure img{
-		filter: grayscale(70%);
-		/*mix-blend-mode: overlay;*/
-	}
+#collection-6165033971066518b8c25e75 * 
+.Parallax-item:nth-of-type(3) figure img{
+    filter: grayscale(90%);
+    /*mix-blend-mode: overlay;*/
 }
+
 
 #sunlocker-why-choose-switchdin h2 {
     color:#fff;
