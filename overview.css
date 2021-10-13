@@ -144,11 +144,11 @@
 #overview-banner.Index-page--has-image .Index-page-content {
     padding-bottom: 0;
 }
-#overview-banner.Index-page--has-image .image-block {
+#overview-banner .sqs-block.image-block {
    max-height: 50vh;
    padding-bottom: 0;
 }
-#overview-banner. img.thumb-image.loaded {
+#overview-banner img.thumb-image.loaded {
    max-width: 35vw;
    top: unset;
    bottom: 0;
