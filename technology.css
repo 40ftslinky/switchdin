@@ -18,7 +18,7 @@
  /* technology typography  */
  /* -------------- */
  
- #collection-6165033971066518b8c25e75 {
+ #collection-61664a1b2cc51b68a415b20e {
      font-family: Roboto;
  }
  
@@ -109,7 +109,7 @@
  }
  
  @media screen and (max-width: 1024px){
-     #collection-6165033971066518b8c25e75 .sqs-layout [class*=sqs-col] {
+     #collection-61664a1b2cc51b68a415b20e .sqs-layout [class*=sqs-col] {
              float: none !important;
              width: auto !important;
      }
@@ -139,12 +139,12 @@
      background: linear-gradient(90deg, rgba(0,117,100,0.7) 0%, rgba(55,66,74,0.7) 100%);
  }
  
- #collection-6165033971066518b8c25e75 { 
+ #collection-61664a1b2cc51b68a415b20e { 
        .Parallax-item:first-of-type figure{
          background-color:rgba(0, 117, 100,0.7);
        }
  }
- #collection-6165033971066518b8c25e75 { 
+ #collection-61664a1b2cc51b68a415b20e { 
      .Parallax-item:first-of-type  figure img{
          filter: grayscale(70%);
          /*mix-blend-mode: overlay;*/
@@ -157,7 +157,7 @@
  #technology-______ {
      background-color: rgba(97,119,133,0.9);
  }
- #collection-6165033971066518b8c25e75 *
+ #collection-61664a1b2cc51b68a415b20e *
  .Parallax-item:nth-of-type(2) figure img {
      filter: grayscale(70%);
      /*mix-blend-mode: overlay;*/
