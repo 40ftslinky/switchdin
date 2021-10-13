@@ -163,6 +163,11 @@
  
  /* technology-droplets */
 
+ #technology-droplets .sqs-col-4 {
+    width: 28.3333%
+     margin-right:5%;
+ }
+
  #technology-droplets h4 {
      color: #37424a;
      text-align: center;
