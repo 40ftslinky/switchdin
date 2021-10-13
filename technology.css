@@ -78,6 +78,12 @@
  [id*="technology"] h4 {
      color: #00B299;
  }
+ [id*="technology"] h1._white,
+ [id*="technology"] h2._white,
+ [id*="technology"] h3._white,
+ [id*="technology"] h4._white {
+     color: #fff;
+ }
  [id*="technology"] h4 {
      margin-top: 0;
      margin-bottom: 0;
@@ -196,7 +202,7 @@
  
  /*  #technology-real-world */
  
- #technology-real-world {
+ #technology-real-world h2{
      color:#fff;
  }
  #technology-real-world svg{
