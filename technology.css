@@ -137,6 +137,7 @@
  .tweak-overlay-parallax-enabled [id*="technology-banner"].Index-page--has-image {
      background: rgb(0,117,100);
      background: linear-gradient(90deg, rgba(0,117,100,0.7) 0%, rgba(55,66,74,0.7) 100%);
+     min-height: calc(80vh - 50px);
  }
  
  #collection-61664a1b2cc51b68a415b20e * 
