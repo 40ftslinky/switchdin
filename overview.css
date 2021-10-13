@@ -97,6 +97,11 @@
      margin-top: 0;
      margin-bottom: 0;
  }
+
+ #overview-for .code-block {
+     padding-bottom: 0;
+     padding-top: 0;
+ }
  
  @media screen and (max-width: 640px){
      [id*="overview"] p {
