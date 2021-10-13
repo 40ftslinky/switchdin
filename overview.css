@@ -147,10 +147,12 @@
 #overview-banner .sqs-block.image-block {
    max-height: 50vh;
    padding-bottom: 0;
+    margin-top: -15%;
 }
 @media screen and (max-width: 1024px){
     #overview-banner .sqs-block.image-block {
         max-height: unset;
+        margin-top: unset;
      }
 }
 #overview-banner img.thumb-image.loaded {
