@@ -148,10 +148,20 @@
    max-height: 50vh;
    padding-bottom: 0;
 }
+@media screen and (max-width: 1024px){
+    #overview-banner .sqs-block.image-block {
+        max-height: unset;
+     }
+}
 #overview-banner img.thumb-image.loaded {
    max-width: 35vw;
    top: unset;
    bottom: 0;
+}
+@media screen and (max-width: 1024px){
+    #overview-banner img.thumb-image.loaded {
+        max-width: unset;   
+    }
 }
 
  
