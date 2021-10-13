@@ -163,6 +163,12 @@
  
  /* technology-droplets */
 
+ #technology-droplets .row.sqs-row {
+    width: 80%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
  #technology-droplets .sqs-col-4 {
     width: 28.3333%;
      margin-right:5%;
