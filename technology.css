@@ -207,6 +207,11 @@
     display: flex;
     justify-content: center;
  }
+
+ #technology-droplets .sqs-col-4 .sqs-block-content p {
+    font-size: 14px;
+ }
+
  #technology-droplets svg{
     max-width: 200px;
  }
