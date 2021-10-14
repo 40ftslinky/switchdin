@@ -286,6 +286,15 @@
    background-color: #00c2b2;
 }
 
+/*  #overview-join-us */
+
+.tweak-overlay-parallax-enabled [id*="overview-join-us"].Index-page--has-image {
+    background: rgba(97, 119, 134, 0.7);
+}
+#overview-join-us h2 {
+    color:#fff;
+    text-align: center;
+}
 
 /* ----------------- */
 /*  #overview-______ */
