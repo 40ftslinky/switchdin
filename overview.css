@@ -258,6 +258,31 @@
 
 }
 
+
+ /*  #technology-real-world */
+ 
+ #overview-real-world h2{
+    color:#fff;
+}
+#overview-real-world svg{
+   max-width: 150px;
+}
+
+#overview-real-world.Index-page--has-image a.sqs-block-button-element {
+   color: #fff !important;
+   border: 1px solid #00b3a4 !important;
+   color: #fff;
+   font-size: 18px;
+   font-weight: 500;
+   border-radius: 8px;
+   background-color: #00B299;
+   box-shadow: 0 2px 0 0 #008a7e;
+}
+#overview-real-world.Index-page--has-image a.sqs-block-button-element--medium:hover {
+   background-color: #00c2b2;
+}
+
+
 /* ----------------- */
 /*  #overview-______ */
 
@@ -267,3 +292,13 @@
 
 /*  */
  
+
+/* section #2 */
+ 
+#overview-______ {
+    background-color: rgba(97,119,133,0.9);
+}
+/* #collection-6166acdd14fab47b2af0032b *
+.Parallax-item:nth-of-type(2) figure img {
+    filter: grayscale(70%);
+} */
