@@ -315,3 +315,17 @@
 .Parallax-item:nth-of-type(2) figure img {
     filter: grayscale(70%);
 } */
+
+/* news */
+[class*="summary"] a.summary-read-more-link {
+    color: #007564;
+}
+
+[class*="summary"] a.summary-read-more-link:hover {
+    color: #00584f;
+}
+
+/* --theme-dark-green: #00584f;
+--theme-dark-green-rgb: 0, 88, 79;
+--theme-green: #007564;
+--theme-green-rgb: 0, 117, 100; */
