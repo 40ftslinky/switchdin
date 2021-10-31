@@ -1,0 +1,138 @@
+/* solutions.css */
+
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap');
+
+/* solutions typography  */
+/* -------------- */
+
+#collection-61664a1b2cc51b68a415b20e {
+    font-family: Roboto;
+}
+
+._white,
+[id*="solutions"] ._white {
+    color: #fff !important;
+}
+
+[id*="solutions"] p.large {
+    /* font-size: 22px; */
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 1.5;
+}
+
+[id*="solutions"] p {
+    /* font-size: 18px; */
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 1.5;
+}
+[id*="solutions"] h1 {
+    font-size: 80px;
+    line-height: 1.1;
+    font-weight: 300;
+    letter-spacing: -0.5px;
+}
+[id*="solutions"] h2 {
+    font-size: 46px;
+    font-weight: 300; 
+    line-height: 1.1;
+    letter-spacing: -0.5px;
+    color: var(--theme-black);
+}
+
+[id*="solutions"] h2.subtitle {
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: center
+}
+
+[id*="solutions"] h3 {
+    font-size: 32px;
+    font-weight: 300;
+    line-height: 1.3;
+    letter-spacing: -0.5px;
+}
+[id*="solutions"] h4 {
+    /* font-size: 28px; */
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 1.5;
+    letter-spacing: -0.5px;
+}
+[id*="solutions"] h4 {
+   font-size: 16px;
+   font-weight: 400;
+   line-height: 1.5;
+   letter-spacing: -0.5px;
+}
+[id*="solutions"] h2,
+[id*="solutions"] h5 {
+   color: #37424a;
+}
+[id*="solutions"] h3,
+[id*="solutions"] h4 {
+    color: #00B299;
+}
+[id*="solutions"] h1._white,
+[id*="solutions"] h2._white,
+[id*="solutions"] h3._white,
+[id*="solutions"] h4._white {
+    color: #fff;
+}
+[id*="solutions"] h4 {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+@media screen and (max-width: 640px){
+    [id*="solutions"] p {
+        font-size: 18px;
+    }
+    [id*="solutions"] h1 {
+            font-size: 36px;
+    }
+    [id*="solutions"] h2 {
+        font-size: 32px;
+    }
+    [id*="solutions"] h3 {
+        font-size: 28px;
+    }
+    [id*="solutions"] h4 {
+        font-size: 24px;
+    }
+}
+
+[id*="solutions"] a[class*="button"]{
+    color:#fff;
+    font-size: 18px;
+    font-weight: 500;
+    border-radius: 8px;
+    background-color: #00B299;
+}
+
+@media screen and (max-width: 1024px){
+    #collection-61664a1b2cc51b68a415b20e .sqs-layout [class*=sqs-col] {
+            float: none !important;
+            width: auto !important;
+    }
+}
+
+
+/* solutions header */
+/* -------------- */
+
+[id*="solutions-banner"] h1 {
+    text-align:center;
+}
+
+@media screen and (min-width: 1200px){
+    [id*="solutions-banner"] .col.sqs-col-12.span-12 {
+        max-width: 60%;
+        float:none;
+        margin-left: auto;
+        margin-right:auto;
+    }
+}
