@@ -6,8 +6,14 @@
 /* solutions typography  */
 /* -------------- */
 
-#collection-61664a1b2cc51b68a415b20e {
+#collection-617e2ee0207a5528109a6295 {
     font-family: Roboto;
+}
+
+.center {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 ._white,
