@@ -146,10 +146,10 @@
 
 /* microgrid get-in-touch */
 
-#overview-get-in-touch-microgrids {
+#solutions-get-in-touch-microgrids {
     background-color: rgba(0,117,100,0.7);
 }
-.tweak-overlay-parallax-enabled [id*="overview-get-in-touch-microgrids"].Index-page--has-image {
+.tweak-overlay-parallax-enabled [id*="solutions-get-in-touch-microgrids"].Index-page--has-image {
     background-color: rgb(0,117,100);
     background-color: linear-gradient(90deg, rgba(0,117,100,0.7) 0%, rgba(55,66,74,0.7) 100%);
 }
