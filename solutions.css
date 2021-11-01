@@ -120,7 +120,7 @@
 }
 
 @media screen and (max-width: 1024px){
-    #collection-61664a1b2cc51b68a415b20e .sqs-layout [class*=sqs-col] {
+    #collection-617e2ee0207a5528109a6295 .sqs-layout [class*=sqs-col] {
             float: none !important;
             width: auto !important;
     }
@@ -142,3 +142,36 @@
         margin-right:auto;
     }
 }
+
+
+/* microgrid get-in-touch */
+
+#overview-get-in-touch-microgrids {
+    background-color: rgba(0,117,100,0.7);
+}
+.tweak-overlay-parallax-enabled [id*="overview-get-in-touch-microgrids"].Index-page--has-image {
+    background-color: rgb(0,117,100);
+    background-color: linear-gradient(90deg, rgba(0,117,100,0.7) 0%, rgba(55,66,74,0.7) 100%);
+}
+
+#collection-617e2ee0207a5528109a6295 *
+.Parallax-item:nth-of-type(4) figure img {
+    filter: grayscale(90%);
+    /*mix-blend-mode: overlay;*/
+}
+
+/* 
+#solutions-get-in-touch-microgrids.Index-page--has-image a.sqs-block-button-element {
+    color: #fff !important;
+    border: 1px solid #00b3a4 !important;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 500;
+    border-radius: 8px;
+    background-color: #00B299;
+    box-shadow: 0 2px 0 0 #008a7e;
+ }
+#solutions-get-in-touch-microgrids.Index-page--has-image a.sqs-block-button-element--medium:hover {
+    background-color: #00c2b2;
+}
+  */
