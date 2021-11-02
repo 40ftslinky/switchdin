@@ -130,6 +130,25 @@
     box-shadow: rgb(0, 138, 126) 0px 2px 0px 0px;
 }
 
+[id*="solutions"] a[class*="button"]:hover{
+    background-color: #00c2b2;
+}
+
+
+#overview-real-world.Index-page--has-image a.sqs-block-button-element {
+    color: #fff !important;
+    border: 1px solid #00b3a4 !important;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 500;
+    border-radius: 8px;
+    background-color: #00B299;
+    box-shadow: 0 2px 0 0 #008a7e;
+ }
+ #overview-real-world.Index-page--has-image a.sqs-block-button-element--medium:hover {
+    background-color: #00c2b2;
+ }
+
 @media screen and (max-width: 1024px){
     #collection-617e2ee0207a5528109a6295 .sqs-layout [class*=sqs-col] {
             float: none !important;
@@ -176,7 +195,7 @@
 
 #solutions-get-in-touch-microgrids {
     background-color: rgba(97, 119, 134, 0.7);
-    
+
 }
 .tweak-overlay-parallax-enabled [id*="solutions-get-in-touch-microgrids"].Index-page--has-image {
     background-color: rgba(97, 119, 134, 0.7);
