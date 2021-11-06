@@ -191,3 +191,13 @@
    filter: grayscale(70%);
    /*mix-blend-mode: overlay;*/
 }
+
+
+/* benefits */
+
+.benefits li::before {
+    url(./img/SwitchDin_Dollar_hand.svg);
+}
+.benefits li::marker {
+    /* content: "🧡 "; */
+  }
