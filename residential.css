@@ -1,0 +1,193 @@
+/* Residential */
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap');
+
+/* residential typography  */
+/* -------------- */
+
+#collection-617e2ee0207a5528109a6295 {
+    font-family: Roboto;
+}
+
+.center {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+._white,
+[id*="residential"] ._white {
+    color: #fff !important;
+}
+
+[id*="residential"] p.large {
+    /* font-size: 22px; */
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 1.5;
+}
+
+[id*="residential"] p {
+    /* font-size: 18px; */
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 1.5;
+}
+[id*="residential"] h1 {
+    font-size: 80px;
+    line-height: 1.1;
+    font-weight: 300;
+    letter-spacing: -0.5px;
+}
+[id*="residential"] h2 {
+    font-size: 46px;
+    font-weight: 300; 
+    line-height: 1.1;
+    letter-spacing: -0.5px;
+    color: var(--theme-black);
+}
+
+[id*="residential"] h2.subtitle {
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: center
+}
+
+[id*="residential"] h3 {
+    font-size: 32px;
+    font-weight: 300;
+    line-height: 1.3;
+    letter-spacing: -0.5px;
+}
+[id*="residential"] h4 {
+    /* font-size: 28px; */
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 1.5;
+    letter-spacing: -0.5px;
+}
+[id*="residential"] h4 {
+   font-size: 16px;
+   font-weight: 400;
+   line-height: 1.5;
+   letter-spacing: -0.5px;
+}
+[id*="residential"] h2,
+[id*="residential"] h5 {
+   color: #37424a;
+}
+[id*="residential"] h3,
+[id*="residential"] h4 {
+    color: #00B299;
+}
+[id*="residential"] h1._white,
+[id*="residential"] h2._white,
+[id*="residential"] h3._white,
+[id*="residential"] h4._white {
+    color: #fff;
+}
+[id*="residential"] h4 {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+@media screen and (max-width: 640px){
+    [id*="residential"] p {
+        font-size: 18px;
+    }
+    [id*="residential"] h1 {
+            font-size: 36px;
+    }
+    [id*="residential"] h2 {
+        font-size: 32px;
+    }
+    [id*="residential"] h3 {
+        font-size: 28px;
+    }
+    [id*="residential"] h4 {
+        font-size: 24px;
+    }
+}
+
+[id*="residential"] a[class*="button"]{
+    color:#fff;
+    font-size: 18px;
+    font-weight: 500;
+    border-radius: 8px;
+    background-color: #00B299;
+    padding: 21px 34px;
+    border-color: rgb(0, 179, 164);
+    font-style: normal;
+    text-transform: capitalize;
+    letter-spacing: 0.06em;
+    display: inline-block;
+    width: auto;
+    height: auto;
+    position: relative;
+    transition: background-color 0.1s linear 0s;
+    box-shadow: rgb(0, 138, 126) 0px 2px 0px 0px;
+}
+
+[id*="residential"] a[class*="button"]:hover{
+    background-color: #00c2b2;
+}
+
+
+[id*="residential"].Index-page--has-image a.sqs-block-button-element {
+    color: #fff !important;
+    border: 1px solid #00b3a4 !important;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 500;
+    border-radius: 8px;
+    background-color: #00B299;
+    box-shadow: 0 2px 0 0 #008a7e;
+ }
+ [id*="residential"].Index-page--has-image a.sqs-block-button-element--medium:hover {
+    background-color: #00c2b2;
+ }
+
+@media screen and (max-width: 1024px){
+    #collection-617e2ee0207a5528109a6295 .sqs-layout [class*=sqs-col] {
+            float: none !important;
+            width: auto !important;
+    }
+}
+
+
+/* residential header */
+/* -------------- */
+
+[id*="residential-banner"] h1 {
+    text-align:center;
+}
+
+@media screen and (min-width: 1200px){
+    [id*="residential-banner"] .col.sqs-col-12.span-12 {
+        max-width: 60%;
+        float:none;
+        margin-left: auto;
+        margin-right:auto;
+    }
+}
+
+/* residential-banner */
+
+.tweak-overlay-parallax-enabled [id*="residential-banner"].Index-page--has-image {
+    background: rgb(0,117,100);
+    background: linear-gradient(90deg, rgba(0,117,100,0.7) 0%, rgba(55,66,74,0.7) 100%);
+    min-height: calc(75vh - 50px) !important;
+}
+
+#collection-617e2ee0207a5528109a6295 *
+.Parallax-item:first-of-type figure{
+   background-color:rgba(0, 117, 100,0.85);
+}
+#collection-617e2ee0207a5528109a6295 * 
+.Parallax-item:first-of-type  figure img{
+   filter: grayscale(70%);
+   /*mix-blend-mode: overlay;*/
+}
