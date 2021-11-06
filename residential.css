@@ -199,6 +199,10 @@
     margin: 1rem 3rem;
 }
 
+[class*='benefits'] li h4 {
+    margin-bottom: 0;
+} 
+
 .benefits li::before, 
 .benefits_02 li::before {
     /* content:url(./img/SwitchDin_Dollar_hand.svg); */
