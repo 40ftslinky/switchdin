@@ -174,6 +174,7 @@
     }
 }
 
+/* ----------------------------------------- */
 /* residential-banner */
 
 .tweak-overlay-parallax-enabled [id*="residential-banner"].Index-page--has-image {
@@ -192,6 +193,7 @@
    /*mix-blend-mode: overlay;*/
 }
 
+/* ----------------------------------------- */
 
 [class*='benefits'] li {
     list-style:none;
@@ -203,6 +205,7 @@
 } 
 [class*='benefits'] li p {
     margin-top: 0;
+    margin-bottom: 0.5rem;
 } 
 
 [class*='benefits'] li::before {
@@ -234,3 +237,36 @@
 .benefits_02 li:last-of-type::before {
     content:url(./img/SwitchDin_Power_lines.svg);
 }
+
+/*  */
+
+/* ----------------------------------------- */
+/* residential-australian-engineered */
+ 
+#residential-australian-engineered {
+    background: #f6f6f6;
+}
+
+#residential-australian-engineered .slide a img {
+    mix-blend-mode: luminosity;
+    /*  */
+    transform: scale(1);
+    transform-origin: center center;
+    -webkit-transition: all .25s ease-out;
+    -o-transition: all .25s ease-out;
+    transition: all .25s ease-out;
+}
+#residential-australian-engineered .slide a:hover img {
+    mix-blend-mode: unset;
+    transform: scale(1.05);
+}
+
+#residential-australian-engineered .slide a {
+    /* 
+    mix-blend doesnt work if transform is on this element
+     */
+}
+#residential-australian-engineered .slide a:hover {
+
+}
+
