@@ -196,7 +196,7 @@
 /* benefits */
 
 .benefits li::before {
-    url(./img/SwitchDin_Dollar_hand.svg);
+    content: url(./img/SwitchDin_Dollar_hand.svg);
 }
 .benefits li::marker {
     /* content: "🧡 "; */
