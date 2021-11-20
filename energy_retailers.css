@@ -29,7 +29,9 @@
     line-height: 1.5;
 }
 
-[id*="energy-retailers"] p {
+[id*="energy-retailers"] p, 
+[id*="energy-retailers"] ul, 
+[id*="energy-retailers"] li {
     /* font-size: 18px; */
     font-size: 16px;
     font-weight: 300;
@@ -195,6 +197,16 @@
 
 /* ----------------------------------------- */
 
+.energy-retailers-limitless-possibilities .list_wrap ul li { }
+
+.list_wrap {
+    columns: 2;
+    column-gap: 2rem;
+}
+
+/* ----------------------------------------- */
+
+
 .group_wrap {
     display: flex;
     flex-direction: row;
@@ -210,6 +222,7 @@
     align-items: center;
     gap: 0.5rem;
 }
+
 .col_wrap:first-of-type .img_wrap img.img_src {
     content:url(./img/SwitchDin_vender_neutral.jpg);
 }
@@ -229,6 +242,7 @@
 @media screen and (max-width: 1024px){
     .group_wrap {
         flex-direction: column;
+        gap: 1rem;
     }
     .col_wrap {
         width: 100%;
