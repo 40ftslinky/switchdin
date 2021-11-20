@@ -199,11 +199,15 @@
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content: center;
+    gap:1rem;
 }
 
 .col_wrap {
     width: 33%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.5rem;
 }
 .col_wrap:first-of-type .img_wrap img.img_src {
     content:url(./img/SwitchDin_vender_neutral.jpg);
