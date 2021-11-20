@@ -1,10 +1,10 @@
-/* energy_retailers */
+/* energy-retailers */
 
 
 
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap');
 
-/* energy_retailers typography  */
+/* energy-retailers typography  */
 /* -------------- */
 
 #collection-617e2ee0207a5528109a6295 {
@@ -18,30 +18,30 @@
 }
 
 ._white,
-[id*="energy_retailers"] ._white {
+[id*="energy-retailers"] ._white {
     color: #fff !important;
 }
 
-[id*="energy_retailers"] p.large {
+[id*="energy-retailers"] p.large {
     /* font-size: 22px; */
     font-size: 18px;
     font-weight: 300;
     line-height: 1.5;
 }
 
-[id*="energy_retailers"] p {
+[id*="energy-retailers"] p {
     /* font-size: 18px; */
     font-size: 16px;
     font-weight: 300;
     line-height: 1.5;
 }
-[id*="energy_retailers"] h1 {
+[id*="energy-retailers"] h1 {
     font-size: 80px;
     line-height: 1.1;
     font-weight: 300;
     letter-spacing: -0.5px;
 }
-[id*="energy_retailers"] h2 {
+[id*="energy-retailers"] h2 {
     font-size: 46px;
     font-weight: 300; 
     line-height: 1.1;
@@ -49,70 +49,70 @@
     color: var(--theme-black);
 }
 
-[id*="energy_retailers"] h2.subtitle {
+[id*="energy-retailers"] h2.subtitle {
     font-size: 22px;
     font-weight: 400;
     line-height: 30px;
     text-align: center
 }
 
-[id*="energy_retailers"] h3 {
+[id*="energy-retailers"] h3 {
     font-size: 32px;
     font-weight: 300;
     line-height: 1.3;
     letter-spacing: -0.5px;
 }
-[id*="energy_retailers"] h4 {
+[id*="energy-retailers"] h4 {
     /* font-size: 28px; */
     font-size: 20px;
     font-weight: 300;
     line-height: 1.5;
     letter-spacing: -0.5px;
 }
-[id*="energy_retailers"] h4 {
+[id*="energy-retailers"] h4 {
    font-size: 16px;
    font-weight: 400;
    line-height: 1.5;
    letter-spacing: -0.5px;
 }
-[id*="energy_retailers"] h2,
-[id*="energy_retailers"] h5 {
+[id*="energy-retailers"] h2,
+[id*="energy-retailers"] h5 {
    color: #37424a;
 }
-[id*="energy_retailers"] h3,
-[id*="energy_retailers"] h4 {
+[id*="energy-retailers"] h3,
+[id*="energy-retailers"] h4 {
     color: #00B299;
 }
-[id*="energy_retailers"] h1._white,
-[id*="energy_retailers"] h2._white,
-[id*="energy_retailers"] h3._white,
-[id*="energy_retailers"] h4._white {
+[id*="energy-retailers"] h1._white,
+[id*="energy-retailers"] h2._white,
+[id*="energy-retailers"] h3._white,
+[id*="energy-retailers"] h4._white {
     color: #fff;
 }
-[id*="energy_retailers"] h4 {
+[id*="energy-retailers"] h4 {
     margin-top: 0;
     margin-bottom: 0;
 }
 
 @media screen and (max-width: 640px){
-    [id*="energy_retailers"] p {
+    [id*="energy-retailers"] p {
         font-size: 18px;
     }
-    [id*="energy_retailers"] h1 {
+    [id*="energy-retailers"] h1 {
             font-size: 36px;
     }
-    [id*="energy_retailers"] h2 {
+    [id*="energy-retailers"] h2 {
         font-size: 32px;
     }
-    [id*="energy_retailers"] h3 {
+    [id*="energy-retailers"] h3 {
         font-size: 28px;
     }
-    [id*="energy_retailers"] h4 {
+    [id*="energy-retailers"] h4 {
         font-size: 24px;
     }
 }
 
-[id*="energy_retailers"] a[class*="button"]{
+[id*="energy-retailers"] a[class*="button"]{
     color:#fff;
     font-size: 18px;
     font-weight: 500;
@@ -131,12 +131,12 @@
     box-shadow: rgb(0, 138, 126) 0px 2px 0px 0px;
 }
 
-[id*="energy_retailers"] a[class*="button"]:hover{
+[id*="energy-retailers"] a[class*="button"]:hover{
     background-color: #00c2b2;
 }
 
 
-[id*="energy_retailers"].Index-page--has-image a.sqs-block-button-element {
+[id*="energy-retailers"].Index-page--has-image a.sqs-block-button-element {
     color: #fff !important;
     border: 1px solid #00b3a4 !important;
     color: #fff;
@@ -146,7 +146,7 @@
     background-color: #00B299;
     box-shadow: 0 2px 0 0 #008a7e;
  }
- [id*="energy_retailers"].Index-page--has-image a.sqs-block-button-element--medium:hover {
+ [id*="energy-retailers"].Index-page--has-image a.sqs-block-button-element--medium:hover {
     background-color: #00c2b2;
  }
 
@@ -158,15 +158,15 @@
 }
 
 
-/* energy_retailers header */
+/* energy-retailers header */
 /* -------------- */
 
-[id*="energy_retailers-banner"] h1 {
+[id*="energy-retailers-banner"] h1 {
     text-align:center;
 }
 
 @media screen and (min-width: 1200px){
-    [id*="energy_retailers-banner"] .col.sqs-col-12.span-12 {
+    [id*="energy-retailers-banner"] .col.sqs-col-12.span-12 {
         max-width: 60%;
         float:none;
         margin-left: auto;
@@ -175,9 +175,9 @@
 }
 
 /* ----------------------------------------- */
-/* energy_retailers-banner */
+/* energy-retailers-banner */
 
-.tweak-overlay-parallax-enabled [id*="energy_retailers-banner"].Index-page--has-image {
+.tweak-overlay-parallax-enabled [id*="energy-retailers-banner"].Index-page--has-image {
     background: rgb(0,117,100);
     background: linear-gradient(90deg, rgba(0,117,100,0.7) 0%, rgba(55,66,74,0.7) 100%);
     min-height: calc(75vh - 50px) !important;
@@ -241,13 +241,13 @@
 /*  */
 
 /* ----------------------------------------- */
-/* energy_retailers-australian-engineered */
+/* energy-retailers-australian-engineered */
  
-#energy_retailers-australian-engineered {
+#energy-retailers-australian-engineered {
     background: #f6f6f6;
 }
 
-#energy_retailers-australian-engineered .slide a img {
+#energy-retailers-australian-engineered .slide a img {
     mix-blend-mode: luminosity;
     /*  */
     transform: scale(1);
@@ -256,17 +256,17 @@
     -o-transition: all .25s ease-out;
     transition: all .25s ease-out;
 }
-#energy_retailers-australian-engineered .slide a:hover img {
+#energy-retailers-australian-engineered .slide a:hover img {
     mix-blend-mode: unset;
     transform: scale(1.05);
 }
 
-#energy_retailers-australian-engineered .slide a {
+#energy-retailers-australian-engineered .slide a {
     /* 
     mix-blend doesnt work if transform is on this element
      */
 }
-#energy_retailers-australian-engineered .slide a:hover {
+#energy-retailers-australian-engineered .slide a:hover {
 
 }
 
