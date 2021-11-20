@@ -195,46 +195,15 @@
 
 /* ----------------------------------------- */
 
-[class*='benefits'] li {
-    list-style:none;
-    margin: 1rem 3rem;
+.group_wrap {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
 }
-
-[class*='benefits'] li h4 {
-    margin-bottom: 0.5rem;
-} 
-[class*='benefits'] li p {
-    margin-top: 0;
-    margin-bottom: 0.5rem;
-} 
-
-[class*='benefits'] li::before {
-    /* content:url(./img/SwitchDin_Dollar_hand.svg); */
-    width: 100px;
-    position:absolute;
-    left:50px;
-    margin-top:-20px;
-    transform: translate(-50%, 0)
+.col_wrap {
+    width: 33%;
 }
-
-.benefits li:first-of-type::before {
-    content:url(./img/SwitchDin_Dollar_hand.svg);
-}
-.benefits li::before {
-    content:url(./img/SwitchDin_Handshake.svg);
-}
-.benefits li:last-of-type::before {
-    content:url(./img/SwitchDin_Person_Tick.svg);
-}
-
-
-.benefits_02 li:first-of-type::before {
-    content:url(./img/SwitchDin_House.svg);
-}
-.benefits_02 li::before {
-    content:url(./img/SwitchDin_Smart_Energy.svg);
-}
-.benefits_02 li:last-of-type::before {
+.col_wrap:first-of-type .img_wrap img.img_src {
     content:url(./img/SwitchDin_Power_lines.svg);
 }
 
