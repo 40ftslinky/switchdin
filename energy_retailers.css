@@ -202,6 +202,8 @@
 .list_wrap {
     columns: 2;
     column-gap: 2rem;
+    padding: 2rem;
+    background-color:rgba(0, 117, 100,0.33);
 }
 
 /* ----------------------------------------- */
