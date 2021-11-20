@@ -206,7 +206,19 @@
     width: 33%;
 }
 .col_wrap:first-of-type .img_wrap img.img_src {
-    /* content:url(./img/SwitchDin_Power_lines.svg); */
+    content:url(./img/SwitchDin_vender_neutral.jpg);
+}
+.col_wrap:nth-of-type(2) .img_wrap img.img_src {
+    content:url(./img/SwitchDin_Dollar.jpg);
+}
+.col_wrap:nth-of-type(3) .img_wrap img.img_src {
+    content:url(./img/SwitchDin_Alarm.jpg);
+}
+.col_wrap:nth-of-type(4) .img_wrap img.img_src {
+    content:url(./img/SwitchDin_platform.jpg);
+}
+.col_wrap:nth-of-type(5) .img_wrap img.img_src {
+    content:url(./img/SwitchDin_vpp.jpg);
 }
 
 @media screen and (max-width: 1024px){
