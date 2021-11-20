@@ -199,12 +199,23 @@
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+    justify-content: center;
 }
+
 .col_wrap {
     width: 33%;
 }
 .col_wrap:first-of-type .img_wrap img.img_src {
-    content:url(./img/SwitchDin_Power_lines.svg);
+    /* content:url(./img/SwitchDin_Power_lines.svg); */
+}
+
+@media screen and (max-width: 1024px){
+    .group_wrap {
+        flex-direction: column;
+    }
+    .col_wrap {
+        width: 100%;
+    }
 }
 
 /*  */
