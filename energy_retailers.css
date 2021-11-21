@@ -49,6 +49,7 @@
     line-height: 1.1;
     letter-spacing: -0.5px;
     color: var(--theme-black);
+    max-width: 23ch;
 }
 
 [id*="energy-retailers"] h2.subtitle {
@@ -312,6 +313,13 @@
     #energy-retailers-unlocks-value
 
 */
+
+[class*="-unlocks-value"] .panel {    
+    padding: 2rem;
+    background-color:rgba(0, 0, 0, 0.08);
+    border-radius: 0.5rem;
+    color:rgba(0, 178, 153, 1);
+}
 
 [class*="-unlocks-value"] img {}
 
