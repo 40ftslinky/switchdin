@@ -364,6 +364,9 @@
 #energy-retailers-unlock-opportunities {
     background: #f6f6f6;
 }
+section#energy-retailers-unlock-opportunities {
+    background: #f6f6f6;
+}
 
 [id*="-unlock-opportunities"] ul {
     list-style: none;
