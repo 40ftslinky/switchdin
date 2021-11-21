@@ -340,6 +340,9 @@
     color:rgba(0, 178, 153, 1);
     text-align: center;
 }
+[id*="-bridging-gaps"] .panel p {    
+    margin-top: 0.5rem;
+}
 
 [id*="-bridging-gaps"] img {}
 
