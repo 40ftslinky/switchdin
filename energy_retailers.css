@@ -302,7 +302,7 @@
     -moz-column-gap: 2em;
     column-gap: 2em; 
     padding: 2rem;
-    background-color:rgba(0, 0, 0, 0.08);
+    background-color:rgba(255, 255, 255, 1.0);
     border-radius: 0.5rem;
 }
 
@@ -355,6 +355,15 @@
 #energy-retailers-limitless-possibilities .summary-thumbnail.img-wrapper
 
 
+/* ----------------------------------------- */
+/* 
+    energy-retailers-unlock-opportunities 
+    
+*/
+ 
+#energy-retailers-unlock-opportunities {
+    background: #f6f6f6;
+}
 
 /* ----------------------------------------- */
 /* 
