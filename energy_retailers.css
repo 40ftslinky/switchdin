@@ -267,7 +267,6 @@
 }
 
 #energy-retailers-unlocks-value {}
-}
 
 /*  */
 
@@ -326,7 +325,7 @@
 
 */
 
-[class*="-bridging-gaps"] .panel {    
+[id*="-bridging-gaps"] .panel {    
     padding: 2rem;
     background-color:rgba(0, 0, 0, 0.08);
     border-radius: 0.5rem;
@@ -334,7 +333,7 @@
     text-align: center;
 }
 
-[class*="-bridging-gaps"] img {}
+[id*="-bridging-gaps"] img {}
 
 /* ----------------------------------------- */
 /*
