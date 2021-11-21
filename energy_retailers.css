@@ -369,8 +369,8 @@
     /* list-style: none; */
 }
 [id*="-unlock-opportunities"] li::before {
-    /* content: "• ";
-    color:rgba(0, 178, 153, 1); */
+    content: " ";
+    /* color:rgba(0, 178, 153, 1); */
   }
   [id*="-unlock-opportunities"]  li::marker {
     color:rgba(0, 178, 153, 1);
