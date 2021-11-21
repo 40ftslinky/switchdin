@@ -365,6 +365,14 @@
     background: #f6f6f6;
 }
 
+[id*="-unlock-opportunities"] li {
+    list-style: disc;
+}
+[id*="-unlock-opportunities"] li::before {
+    /* content: "• "; */
+    color:rgba(0, 178, 153, 1);
+  }
+
 /* ----------------------------------------- */
 /* 
     energy-retailers-lightgrey-section 
