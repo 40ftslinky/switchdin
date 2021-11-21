@@ -386,6 +386,11 @@ section#energy-retailers-unlock-opportunities {
     font-weight: bold;
   }
 
+  ul[data-rte-list] li>*:first-child::before {
+    /* content: "\2022"; */
+    content: none;
+}
+
 /* ----------------------------------------- */
 /* 
     energy-retailers-lightgrey-section 
