@@ -195,6 +195,19 @@
 
 /* ----------------------------------------- */
 
+
+
+/* ----------------------------------------- */
+/* residential-control-over-power */
+
+[id*="-control-over-power"],
+#residential-control-over-power {
+    background: #f6f6f6;
+}
+
+
+/* ----------------------------------------- */
+
 [class*='benefits'] li {
     list-style:none;
     margin: 1rem 3rem;
