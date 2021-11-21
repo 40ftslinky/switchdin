@@ -366,7 +366,11 @@
 }
 
 [id*="-unlock-opportunities"] ul {
-    /* list-style: none; */
+    list-style: none;
+}
+
+[id*="-unlock-opportunities"] li {
+    list-style-type: none;
 }
 [id*="-unlock-opportunities"] li::before {
     content: " ";
