@@ -257,6 +257,12 @@
     }
 }
 
+#energy-retailers-unlocks-value .panel {
+    padding: 2rem;
+    background-color:rgba(0, 0, 0, 0.08);
+    border-radius: 0.5rem;
+}
+
 /*  */
 
 
@@ -319,6 +325,7 @@
     background-color:rgba(0, 0, 0, 0.08);
     border-radius: 0.5rem;
     color:rgba(0, 178, 153, 1);
+    text-align: center;
 }
 
 [class*="-unlocks-value"] img {}
