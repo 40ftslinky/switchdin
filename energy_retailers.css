@@ -29,6 +29,13 @@
     line-height: 1.5;
 }
 
+[id*="energy-retailers"] p.small {
+    /* font-size: 22px; */
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 1.2;
+}
+
 [id*="energy-retailers"] p, 
 [id*="energy-retailers"] ul, 
 [id*="energy-retailers"] li {
@@ -326,7 +333,7 @@
 */
 
 [id*="-bridging-gaps"] .panel {    
-    padding: 2rem;
+    padding: 1rem;
     background-color:rgba(0, 0, 0, 0.08);
     border-radius: 0.5rem;
     color:rgba(0, 178, 153, 1);
