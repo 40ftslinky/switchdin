@@ -195,44 +195,24 @@
    /*mix-blend-mode: overlay;*/
 }
 
-/* ----------------------------------------- */
-
-.energy-retailers-limitless-possibilities .list_wrap ul li { }
-
-.list_wrap {
-    -webkit-columns: 2;
-    -moz-columns: 2;
-    columns: 2;
-    -webkit-column-gap: 2em;
-    -moz-column-gap: 2em;
-    column-gap: 2em; 
-    padding: 2rem;
-    background-color:rgba(0, 0, 0, 0.08);
-    border-radius: 0.5rem;
-}
-
-@media screen and (max-width: 1024px){
-    .list_wrap {
-        columns: unset;
-        column-gap: unset;
-        padding: 1rem;
-    }
-}
-
-.list_wrap ul {
-    margin-top: 0;
-}
-
-.list_wrap li {
-    -webkit-column-break-inside: avoid; /* Chrome, Safari, Opera */
-    page-break-inside: avoid; /* Firefox */
-    break-inside: avoid; /* IE 10+ */
-    /*  */
-    color:rgba(0, 117, 100, 1);
-}
 
 /* ----------------------------------------- */
+/* 
+    energy-retailers-lightgrey-section 
+    
+*/
+ 
+#energy-retailers-customers {
+    background: #f6f6f6;
+}
 
+
+
+/* ----------------------------------------- */
+/*  
+    energy-retailers-unlocking-value
+    
+*/
 
 .group_wrap {
     display: flex;
@@ -278,33 +258,81 @@
 
 /*  */
 
+
 /* ----------------------------------------- */
-/* energy-retailers-australian-engineered */
+/*
+    #energy-retailers-limitless-possibilities 
+    .list_wrap 
+
+*/
+
  
-#energy-retailers-australian-engineered {
+#energy-retailers-limitless-possibilities {
     background: #f6f6f6;
 }
 
-#energy-retailers-australian-engineered .slide a img {
-    mix-blend-mode: luminosity;
+
+#energy-retailers-limitless-possibilities .list_wrap ul li { }
+
+.list_wrap {
+    -webkit-columns: 2;
+    -moz-columns: 2;
+    columns: 2;
+    -webkit-column-gap: 2em;
+    -moz-column-gap: 2em;
+    column-gap: 2em; 
+    padding: 2rem;
+    background-color:rgba(0, 0, 0, 0.08);
+    border-radius: 0.5rem;
+}
+
+@media screen and (max-width: 1024px){
+    .list_wrap {
+        columns: unset;
+        column-gap: unset;
+        padding: 1rem;
+    }
+}
+
+.list_wrap ul {
+    margin-top: 0;
+    padding-inline-start: 1rem;
+}
+
+.list_wrap li {
+    -webkit-column-break-inside: avoid; /* Chrome, Safari, Opera */
+    page-break-inside: avoid; /* Firefox */
+    break-inside: avoid; /* IE 10+ */
     /*  */
-    transform: scale(1);
-    transform-origin: center center;
-    -webkit-transition: all .25s ease-out;
-    -o-transition: all .25s ease-out;
-    transition: all .25s ease-out;
-}
-#energy-retailers-australian-engineered .slide a:hover img {
-    mix-blend-mode: unset;
-    transform: scale(1.05);
+    color:rgba(0, 178, 153, 1);
 }
 
-#energy-retailers-australian-engineered .slide a {
-    /* 
-    mix-blend doesnt work if transform is on this element
-     */
-}
-#energy-retailers-australian-engineered .slide a:hover {
+/* ----------------------------------------- */
+/*
+    #energy-retailers-unlocks-value
 
+*/
+
+[class*="-unlocks-value"] img {}
+
+/* ----------------------------------------- */
+/*
+    #energy-retailers-testimonials 
+     
+*/
+
+#energy-retailers-limitless-possibilities .summary-thumbnail.img-wrapper
+
+
+
+/* ----------------------------------------- */
+/* 
+    energy-retailers-lightgrey-section 
+    
+*/
+ 
+#energy-retailers-lightgrey-section {
+    background: #f6f6f6;
 }
+
 
