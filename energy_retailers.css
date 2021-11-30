@@ -247,6 +247,10 @@
     align-items: center;
     gap: 0.5rem;
 }
+.col_wrap .text_wrap {
+    text-align: center;
+    font-size: 0.8rem;
+}
 
 .col_wrap:first-of-type .img_wrap img.img_src {
     content:url(./img/SwitchDin_vender_neutral.jpg);
