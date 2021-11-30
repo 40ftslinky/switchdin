@@ -354,6 +354,14 @@
     align-items: center;
     gap: 1rem;
 }
+
+@media screen and (max-width: 1024px){
+    [id*="-bridging-gaps"] .retailers_img_group {
+        flex-direction: column;
+        gap: 0.5rem;
+    }
+}
+
 [id*="-bridging-gaps"] .panel { 
     width: 15%;
 }
