@@ -346,9 +346,19 @@
 
 [id*="-bridging-gaps"] img {}
 
-.retailers_img_group {
+[id*="-bridging-gaps"] .retailers_img_group {
     display: flex;
     flex-direction: row;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+[id*="-bridging-gaps"] .panel { 
+    width: 15%;
+}
+[id*="-bridging-gaps"] .retailers_img_wrap {
+    width: calc(70% * 0.33);
 }
 
 /* ----------------------------------------- */
