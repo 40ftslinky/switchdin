@@ -359,8 +359,8 @@
 }
 [id*="-bridging-gaps"] .retailers_img_wrap {
     width: calc(70% * 0.25);
-}
-[id*="-bridging-gaps"] .retailers_img_wrap:nth-of-type(2) {
+} 
+[id*="-bridging-gaps"] .retailers_img_wrap:nth-of-type(3) {
     width: calc(70% * 0.5);
 }
 
