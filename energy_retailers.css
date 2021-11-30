@@ -346,6 +346,11 @@
 
 [id*="-bridging-gaps"] img {}
 
+.retailers_img_group {
+    display: flex;
+    flex-direction: row;
+}
+
 /* ----------------------------------------- */
 /*
     #energy-retailers-testimonials 
