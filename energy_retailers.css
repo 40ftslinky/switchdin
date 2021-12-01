@@ -423,6 +423,8 @@ section#energy-retailers-unlock-opportunities {
 }
 
 
+
+
 /* ----------------------------------------- */
 /* 
     energy-retailers-talk-to-us
@@ -448,6 +450,21 @@ section#energy-retailers-unlock-opportunities {
     hubspot 
     
 */
+[id*="-unlock-opportunities"] h3 { 
+    margin-bottom: 0.5rem;
+}
+[id*="-unlock-opportunities"] h4 { 
+    margin-bottom: 1rem;
+    font-size: 26px;
+    font-weight: 300; 
+    line-height: 1.1;
+    letter-spacing: -0.5px;
+    color: var(--theme-black);
+    /* max-width: 23ch; */
+}
+
+
+
 [id*="energy-retailers"] input[type="submit"] {
     color: #fff !important;
     border: 1px solid #00b3a4 !important;
