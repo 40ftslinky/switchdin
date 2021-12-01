@@ -247,6 +247,7 @@
     align-items: center;
     gap: 0.5rem;
 }
+
 .col_wrap .text_wrap {
     text-align: center;
     font-size: 0.8rem;
@@ -420,6 +421,29 @@ section#energy-retailers-unlock-opportunities {
     /* content: "\2022"; */
     content: none;
 }
+
+
+/* ----------------------------------------- */
+/* 
+    energy-retailers-talk-to-us
+    
+*/
+
+#energy-retailers-talk-to-us.Index-page--has-image a.sqs-block-button-element {
+    color: #fff !important;
+    border: 1px solid #37424a !important;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 500;
+    border-radius: 8px;
+    background-color: #37424a;
+    box-shadow: 0 2px 0 0 #black;
+ }
+#energy-retailers-talk-to-us.Index-page--has-image a.sqs-block-button-element--medium:hover {
+    background-color: #black;
+}
+ 
+
 
 /* ----------------------------------------- */
 /* 
