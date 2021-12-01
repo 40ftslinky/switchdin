@@ -437,10 +437,10 @@ section#energy-retailers-unlock-opportunities {
     font-weight: 500;
     border-radius: 8px;
     background-color: #37424a;
-    box-shadow: 0 2px 0 0 #black;
+    box-shadow: 0 2px 0 0 black;
  }
 #energy-retailers-talk-to-us.Index-page--has-image a.sqs-block-button-element--medium:hover {
-    background-color: #black;
+    background-color: black;
 }
  
 
