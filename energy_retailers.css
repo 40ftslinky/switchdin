@@ -440,7 +440,7 @@ section#energy-retailers-unlock-opportunities {
     box-shadow: 0 2px 0 0 black;
  }
 #energy-retailers-talk-to-us.Index-page--has-image a.sqs-block-button-element--medium:hover {
-    background-color: black;
+    background-color: black !important;
 }
  
 
