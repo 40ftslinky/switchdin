@@ -442,8 +442,26 @@ section#energy-retailers-unlock-opportunities {
 #energy-retailers-talk-to-us.Index-page--has-image a.sqs-block-button-element--medium:hover {
     background-color: black !important;
 }
- 
 
+/* ----------------------------------------- */
+/* 
+    hubspot 
+    
+*/
+#energy-retailers input[type="submit"] {
+    color: #fff !important;
+    border: 1px solid #00b3a4 !important;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 500;
+    border-radius: 8px;
+    background-color: #00B299;
+    box-shadow: 0 2px 0 0 #008a7e;
+ }
+ #energy-retailers input[type="submit"]:hover {
+    background-color: #00c2b2;
+}
+ 
 
 /* ----------------------------------------- */
 /* 
