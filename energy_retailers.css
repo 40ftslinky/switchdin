@@ -465,7 +465,7 @@ section#energy-retailers-unlock-opportunities {
 
 
 
-[id*="energy-retailers"] input[type="submit"] {
+[id*="energy-retailers"] input[type="submit"].hs-button {
     color: #fff !important;
     border: 1px solid #00b3a4 !important;
     color: #fff;
@@ -475,7 +475,7 @@ section#energy-retailers-unlock-opportunities {
     background-color: #00B299;
     box-shadow: 0 2px 0 0 #008a7e;
  }
- [id*="energy-retailers"] input[type="submit"]:hover {
+ [id*="energy-retailers"] input[type="submit"].hs-button:hover {
     background-color: #00c2b2;
 }
  
