@@ -552,7 +552,12 @@ input[type="submit"].hs-button:hover {
 }
 
 
- 
+/* ----------------------------------------- */
+/*       */
+#energy-retailers-build-the-grid svg{
+    max-width: 150px;
+ } 
+
 
 /* ----------------------------------------- */
 /* 
