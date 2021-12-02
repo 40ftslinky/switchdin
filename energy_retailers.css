@@ -423,11 +423,9 @@
     
 */
  
-#energy-retailers-unlock-opportunities {
-    /* background: #f6f6f6; */
-}
+#energy-retailers-unlock-opportunities,
 section#energy-retailers-unlock-opportunities {
-    background: #f6f6f6;
+    /* background: #f6f6f6; */
 }
 
 [id*="-unlock-opportunities"] ul {
