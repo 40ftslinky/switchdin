@@ -468,6 +468,13 @@ section#energy-retailers-unlock-opportunities {
     background-color: #ededed;
 }
 
+@media screen and (max-width: 1024px){
+    [id*="-unlock-opportunities"] .row:nth-of-type(2) .sqs-layout [class*=sqs-col-4]:nth-of-type(2) {
+        float: none !important;
+        width: auto !important;
+    }
+}
+
 [id*="energy-retailers"] input[type="submit"].hs-button {
     color: #fff !important;
     border: 1px solid #00b3a4 !important;
