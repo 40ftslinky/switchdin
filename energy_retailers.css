@@ -370,6 +370,12 @@
 [id*="-bridging-gaps"] .panel { 
     width: 15%;
 }
+@media screen and (max-width: 1024px){
+    [id*="-bridging-gaps"] .panel { 
+        width: 100%;
+    }
+}
+
 [id*="-bridging-gaps"] .retailers_img_wrap {
     width: calc(70% * 0.25);
 } 
@@ -469,7 +475,7 @@ section#energy-retailers-unlock-opportunities {
 }
 
 @media screen and (max-width: 1024px){
-    [id*="-unlock-opportunities"] .row:nth-of-type(2) .sqs-layout [class*=sqs-col]{
+    [id*="-unlock-opportunities"] .sqs-layout [class*=sqs-col]{
         float: none !important;
         width: auto !important;
     }
