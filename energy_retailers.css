@@ -373,6 +373,7 @@
 @media screen and (max-width: 1024px){
     [id*="-bridging-gaps"] .panel { 
         width: 100%;
+        max-width: 280px;
     }
 }
 
@@ -472,12 +473,16 @@ section#energy-retailers-unlock-opportunities {
 [id*="-unlock-opportunities"] .form_wrap {
     padding: 1rem;
     background-color: #ededed;
+    min-width: 300px;
 }
 
 @media screen and (max-width: 1024px){
     [id*="-unlock-opportunities"] .sqs-layout [class*=sqs-col]{
         float: none !important;
         width: auto !important;
+    }
+    [id*="-unlock-opportunities"] .form_wrap {
+        max-width: 300px;
     }
 }
 
