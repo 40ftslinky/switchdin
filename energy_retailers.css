@@ -469,7 +469,7 @@ section#energy-retailers-unlock-opportunities {
 }
 
 @media screen and (max-width: 1024px){
-    [id*="-unlock-opportunities"] .row:nth-of-type(2) .sqs-layout [class*=sqs-col-4]{
+    [id*="-unlock-opportunities"] .row:nth-of-type(2) .sqs-layout [class*=sqs-col]{
         float: none !important;
         width: auto !important;
     }
