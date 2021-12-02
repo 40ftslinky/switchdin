@@ -463,7 +463,10 @@ section#energy-retailers-unlock-opportunities {
     /* max-width: 23ch; */
 }
 
-
+[id*="-unlock-opportunities"] .form_wrap {
+    padding: 1rem;
+    background-color: #ededed;
+}
 
 [id*="energy-retailers"] input[type="submit"].hs-button {
     color: #fff !important;
@@ -478,6 +481,38 @@ section#energy-retailers-unlock-opportunities {
  [id*="energy-retailers"] input[type="submit"].hs-button:hover {
     background-color: #00c2b2;
 }
+    
+input[type="submit"].hs-button {
+      color: #fff !important;
+      border: 1px solid #00b3a4 !important;
+      color: #fff;
+      font-size: 18px;
+      font-weight: 500;
+      border-radius: 8px;
+      background-color: #00B299;
+      box-shadow: 0 2px 0 0 #008a7e;
+      padding: 21px 34px;
+      font-style: normal;
+      text-transform: capitalize;
+      letter-spacing: .06em;
+}
+input[type="submit"].hs-button:hover {
+      color: #fff !important;
+      border: 1px solid #00b3a4 !important;
+      color: #fff;
+      font-size: 18px !important;
+      font-weight: 500;
+      border-radius: 8px;
+      background-color: #00c2b2;
+      background: #00c2b2 !important;
+      box-shadow: 0 2px 0 0 #008a7e;
+      padding: 21px 34px;
+      font-style: normal;
+      text-transform: capitalize;
+      letter-spacing: .06em;
+}
+
+
  
 
 /* ----------------------------------------- */
