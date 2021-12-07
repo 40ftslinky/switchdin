@@ -290,17 +290,6 @@
 
 
 
-/* ----------------------------------------- */
-/*
-    #network-operators-limitless-not-white 
-    .list_wrap 
-
-*/
-
- 
-#network-operators-limitless-not-white {
-    background: #f6f6f6;
-}
 
 
 [id*="network-operators"] .list_wrap ul li { }
@@ -411,6 +400,17 @@
 }
 
 
+/* ----------------------------------------- */
+/*
+    #network-operators-stabilise 
+    .list_wrap 
+
+*/
+
+ 
+#network-operators-stabilise {
+    background: #f6f6f6;
+}
 
 
 /* ----------------------------------------- */
