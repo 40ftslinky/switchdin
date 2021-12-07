@@ -418,19 +418,13 @@
     font-size: 18px;
     font-weight: 500;
     border-radius: 8px;
-    background-color: #37424a;
-    box-shadow: 0 2px 0 0 black;
+    background-color: #00B299;
+    box-shadow: 0 2px 0 0 #008a7e;
  }
-#network-operators-get-in-touch.Index-page--has-image a.sqs-block-button-element--medium:hover {
-    background-color: black !important;
-}
-
-
-.tweak-overlay-parallax-enabled [id*="get-in-touch"].Index-page--has-image {
-    background: rgba(97, 119, 134, 0.7);
-	/*  */
-    /* background: linear-gradient(94deg,rgba(97, 119, 134,0.99) 0%,rgba(97, 119, 134,0.27)100%); */
-}
+ [id*="network-operators"].Index-page--has-image a.sqs-block-button-element--medium:hover {
+    color:#fff !important;
+    background-color: #00c2b2;
+ }
 
 
 /* ----------------------------------------- */
