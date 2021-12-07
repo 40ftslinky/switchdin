@@ -364,7 +364,8 @@
    background-color:rgba(0, 117, 100,0.85);
 }
 #collection-617e2ee0207a5528109a6295 * 
-.Parallax-item:first-of-type  figure img{
+.Parallax-item:first-of-type  figure img,
+.Parallax-item:nth-of-type(2)  figure img {
    filter: grayscale(70%);
    /*mix-blend-mode: overlay;*/
 }
@@ -410,6 +411,26 @@
     network-operators-get-in-touch
     
 */
+* ----------------------------------------- */
+/* network-operators-break */
+
+.tweak-overlay-parallax-enabled [id*="network-operators-get-in-touch"].Index-page--has-image {
+    background: rgb(0,117,100);
+    background: linear-gradient(90deg, rgba(0,117,100,0.7) 0%, rgba(55,66,74,0.7) 100%);
+    /* min-height: calc(75vh - 50px) !important; */
+}
+
+#collection-61afcd0e4c8a48263ed22dfd *
+.Parallax-item:nth-of-type(2) figure{
+   background-color:rgba(0, 117, 100,0.85);
+}
+#collection-61afcd0e4c8a48263ed22dfd * 
+.Parallax-item:nth-of-type(2)  figure img{
+   filter: grayscale(70%);
+   /*mix-blend-mode: overlay;*/
+}
+
+
 
 #network-operators-get-in-touch.Index-page--has-image a.sqs-block-button-element--medium,
 [id*="-get-in-touch"].Index-page--has-image a.sqs-block-button-element--medium {    
@@ -420,6 +441,8 @@
     background-color: #00B299;
     padding: 21px 34px;
     border-color: rgb(0, 179, 164);
+    border-width: 1px;
+    border-style: solid;
     font-style: normal;
     text-transform: capitalize;
     letter-spacing: 0.06em;
