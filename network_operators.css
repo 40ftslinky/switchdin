@@ -44,12 +44,12 @@
     line-height: 1.5;
 }
 [id*="network-operators"] a {
-    color: #688581 !important;
+    color: #00B299 !important;
     font-weight: 400;
     text-decoration: none !important;
 }
 [id*="network-operators"] a:hover {
-    color: #00B299 !important;
+    color: #008a7e !important;
     font-weight: 400;
     text-decoration: underline !important;
 }
@@ -140,7 +140,7 @@
 }
 
 [id*="network-operators"] a[class*="button"]{
-    color:#fff;
+    color:#fff !important;
     font-size: 18px;
     font-weight: 500;
     border-radius: 8px;
@@ -159,7 +159,7 @@
 }
 
 [id*="network-operators"] a[class*="button"]:hover{
-    background-color: #00c2b2;
+    background-color: #00c2b2 !important;
 }
 
 
