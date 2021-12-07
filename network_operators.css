@@ -44,14 +44,14 @@
     line-height: 1.5;
 }
 [id*="network-operators"] a {
-    color: #00B299;
-    font-weight: 300;
-    text-decoration: none;
+    color: #688581 !important;
+    font-weight: 400;
+    text-decoration: none !important;
 }
 [id*="network-operators"] a:hover {
-    color: #00B299;
-    font-weight: 300;
-    text-decoration: underline;
+    color: #00B299 !important;
+    font-weight: 400;
+    text-decoration: underline !important;
 }
 
 
@@ -84,18 +84,13 @@
     letter-spacing: -0.5px;
 }
 [id*="network-operators"] h4 {
-    font-size: 28px;
-    /* font-size: 20px; */
+    /* font-size: 28px; */
+    font-size: 20px;
     font-weight: 300;
     line-height: 1.5;
     letter-spacing: -0.5px;
 }
-[id*="network-operators"] h4 {
-   font-size: 16px;
-   font-weight: 400;
-   line-height: 1.5;
-   letter-spacing: -0.5px;
-}
+
 [id*="network-operators"] h5 {
     font-size: 14px;
     font-weight: 400;
