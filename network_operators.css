@@ -411,20 +411,31 @@
     
 */
 
-#network-operators-get-in-touch.Index-page--has-image a.sqs-block-button-element--medium {
-    color: #fff !important;
-    border: 1px solid #37424a !important;
-    color: #fff;
+#network-operators-get-in-touch.Index-page--has-image a.sqs-block-button-element--medium,
+[id*="-get-in-touch"].Index-page--has-image a.sqs-block-button-element--medium {    
+    color:#fff !important;
     font-size: 18px;
     font-weight: 500;
     border-radius: 8px;
     background-color: #00B299;
-    box-shadow: 0 2px 0 0 #008a7e;
- }
- [id*="network-operators"].Index-page--has-image a.sqs-block-button-element--medium:hover {
+    padding: 21px 34px;
+    border-color: rgb(0, 179, 164);
+    font-style: normal;
+    text-transform: capitalize;
+    letter-spacing: 0.06em;
+    display: inline-block;
+    width: auto;
+    height: auto;
+    position: relative;
+    transition: background-color 0.1s linear 0s;
+    box-shadow: rgb(0, 138, 126) 0px 2px 0px 0px;
+}
+
+#network-operators-get-in-touch.Index-page--has-image a.sqs-block-button-element--medium:hover,
+[id*="-get-in-touch"].Index-page--has-image a.sqs-block-button-element--medium:hover{
     color:#fff !important;
-    background-color: #00c2b2;
- }
+    background-color: #00c2b2 !important;
+}
 
 
 /* ----------------------------------------- */
