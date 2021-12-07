@@ -159,6 +159,7 @@
 }
 
 [id*="network-operators"] a[class*="button"]:hover{
+    color:#fff !important;
     background-color: #00c2b2 !important;
 }
 
@@ -174,6 +175,7 @@
     box-shadow: 0 2px 0 0 #008a7e;
  }
  [id*="network-operators"].Index-page--has-image a.sqs-block-button-element--medium:hover {
+    color:#fff !important;
     background-color: #00c2b2;
  }
 
