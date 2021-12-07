@@ -420,11 +420,11 @@
     /* min-height: calc(75vh - 50px) !important; */
 }
 
-#collection-61afcd0e4c8a48263ed22dfd *
+#collection-61af42a84b23aa14669b515a *
 .Parallax-item:nth-of-type(2) figure{
    background-color:rgba(0, 117, 100,0.85);
 }
-#collection-61afcd0e4c8a48263ed22dfd * 
+#collection-61af42a84b23aa14669b515a * 
 .Parallax-item:nth-of-type(2)  figure img{
    filter: grayscale(70%);
    /*mix-blend-mode: overlay;*/
