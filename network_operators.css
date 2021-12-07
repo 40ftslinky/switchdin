@@ -402,13 +402,14 @@
 
 /* ----------------------------------------- */
 /*
-    #network-operators-stabilise 
-    .list_wrap 
+    background
+    #f6f6f6
 
 */
 
  
-#network-operators-stabilise {
+#network-operators-stabilise,
+#network-operators-microgrids {
     background: #f6f6f6;
 }
 
