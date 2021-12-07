@@ -220,7 +220,7 @@
     
 */
  
-#network-operators-customers {
+#network-operators-section {
     /* background: #f6f6f6; */
 }
 
@@ -253,21 +253,6 @@
     font-size: 0.8rem;
 }
 
-.col_wrap:first-of-type .img_wrap img.img_src {
-    content:url(./img/SwitchDin_vender_neutral.jpg);
-}
-.col_wrap:nth-of-type(2) .img_wrap img.img_src {
-    content:url(./img/SwitchDin_Dollar.jpg);
-}
-.col_wrap:nth-of-type(3) .img_wrap img.img_src {
-    content:url(./img/SwitchDin_Alarm.jpg);
-}
-.col_wrap:nth-of-type(4) .img_wrap img.img_src {
-    content:url(./img/SwitchDin_platform.jpg);
-}
-.col_wrap:nth-of-type(5) .img_wrap img.img_src {
-    content:url(./img/SwitchDin_vpp.jpg);
-}
 
 @media screen and (max-width: 1024px){
     .group_wrap {
@@ -285,7 +270,7 @@
 
 
 /* ----------------------------------------- */
-/* network-operators-banner */
+/* network-operators-break */
 
 .tweak-overlay-parallax-enabled [id*="network-operators-break"].Index-page--has-image {
     background: rgb(0,117,100);
@@ -307,18 +292,18 @@
 
 /* ----------------------------------------- */
 /*
-    #network-operators-limitless-possibilities 
+    #network-operators-limitless-not-white 
     .list_wrap 
 
 */
 
  
-#network-operators-limitless-possibilities {
+#network-operators-limitless-not-white {
     background: #f6f6f6;
 }
 
 
-#network-operators-limitless-possibilities .list_wrap ul li { }
+[id*="network-operators"] .list_wrap ul li { }
 
 .list_wrap {
     -webkit-columns: 2;
@@ -355,24 +340,24 @@
 
 /* ----------------------------------------- */
 /*
-    #network-operators-unlocks-value
+    #network-operators .panel
 
 */
 
-[id*="-bridging-gaps"] .panel {    
+[id*="network-operators"] .panel {    
     padding: 1rem 0.5rem;
     background-color:rgba(0, 0, 0, 0.08);
     border-radius: 0.5rem;
     color:rgba(0, 178, 153, 1);
     text-align: center;
 }
-[id*="-bridging-gaps"] .panel p {    
+[id*="network-operators"] .panel p {    
     margin-top: 0.5rem;
 }
 
-[id*="-bridging-gaps"] img {}
+[id*="network-operators"] img {}
 
-[id*="-bridging-gaps"] .retailers_img_group {
+[id*="network-operators"] ._img_group {
     display: flex;
     flex-direction: row;
     align-content: center;
@@ -382,64 +367,38 @@
 }
 
 @media screen and (max-width: 1024px){
-    [id*="-bridging-gaps"] .retailers_img_group {
+    [id*="network-operators"] ._img_group {
         flex-direction: column;
         gap: 0.5rem;
     }
 }
 
-[id*="-bridging-gaps"] .panel { 
-    width: 15%;
+[id*="network-operators"] .panel { 
+    width: var(--panel-width);
 }
 @media screen and (max-width: 1024px){
-    [id*="-bridging-gaps"] .panel { 
+    [id*="network-operators"] .panel { 
         width: 100%;
         max-width: 280px;
     }
 }
 
-[id*="-bridging-gaps"] .retailers_img_wrap {
-    width: calc(70% * 0.25);
-} 
-[id*="-bridging-gaps"] .retailers_img_wrap:nth-of-type(3) {
-    width: calc(70% * 0.5);
-}
-
 /* ----------------------------------------- */
 /* */
 
-#network-operators-testimonials {
-    background: #f6f6f6;
-}
-     
 
-
-#network-operators-limitless-possibilities .summary-thumbnail.img-wrapper
-
-
-/* ----------------------------------------- */
-/* 
-    network-operators-unlock-opportunities 
-    
-*/
- 
-#network-operators-unlock-opportunities,
-section#network-operators-unlock-opportunities {
-    /* background: #f6f6f6; */
-}
-
-[id*="-unlock-opportunities"] ul {
+[id*="network-operators"] ul {
     list-style: none;
 }
 
-[id*="-unlock-opportunities"] li {
+[id*="network-operators"] li {
     list-style-type: none;
 }
-[id*="-unlock-opportunities"] li::before {
+[id*="network-operators"] li::before {
     content: " ";
     /* color:rgba(0, 178, 153, 1); */
   }
-  [id*="-unlock-opportunities"]  li::marker {
+  [id*="network-operators"]  li::marker {
     color:rgba(0, 178, 153, 1);
     content: "•  ";
     font-size: 16px;
@@ -473,93 +432,6 @@ section#network-operators-unlock-opportunities {
 #network-operators-talk-to-us.Index-page--has-image a.sqs-block-button-element--medium:hover {
     background-color: black !important;
 }
-
-/* ----------------------------------------- */
-/* 
-    hubspot 
-    
-*/
-[id*="-unlock-opportunities"] h3 { 
-    margin-bottom: 0.5rem;
-}
-[id*="-unlock-opportunities"] h4 { 
-    margin-bottom: 1rem;
-    font-size: 26px;
-    font-weight: 300; 
-    line-height: 1.1;
-    letter-spacing: -0.5px;
-    color: var(--theme-black);
-    /* max-width: 23ch; */
-}
-
-[id*="-unlock-opportunities"] .form_wrap {
-    padding: 1rem;
-    background-color: #ededed;
-    min-width: 300px;
-}
-
-@media screen and (max-width: 1024px){
-    [id*="-unlock-opportunities"] .sqs-layout [class*=sqs-col]{
-        float: none !important;
-        width: auto !important;
-    }
-    [id*="-unlock-opportunities"] .form_wrap {
-        max-width: 300px;
-    }
-}
-
-[id*="network-operators"] input[type="submit"].hs-button {
-    color: #fff !important;
-    border: 1px solid #00b3a4 !important;
-    color: #fff;
-    font-size: 18px;
-    font-weight: 500;
-    border-radius: 8px;
-    background-color: #00B299;
-    box-shadow: 0 2px 0 0 #008a7e;
- }
- [id*="network-operators"] input[type="submit"].hs-button:hover {
-    background-color: #00c2b2;
-}
-    
-input[type="submit"].hs-button {
-      color: #fff !important;
-      border: 1px solid #00b3a4 !important;
-      color: #fff;
-      font-size: 18px;
-      font-weight: 500;
-      border-radius: 8px;
-      background-color: #00B299;
-      box-shadow: 0 2px 0 0 #008a7e;
-      padding: 21px 34px;
-      font-style: normal;
-      text-transform: capitalize;
-      letter-spacing: .06em;
-}
-input[type="submit"].hs-button:hover,
-input[type="submit"].hs-button:active {
-      color: #fff !important;
-      border: 1px solid #00b3a4 !important;
-      color: #fff;
-      font-size: 18px !important;
-      font-weight: 500;
-      border-radius: 8px;
-      background-color: #00c2b2;
-      background: #00c2b2 !important;
-      box-shadow: 0 2px 0 0 #008a7e;
-      padding: 21px 34px;
-      font-style: normal;
-      text-transform: capitalize;
-      letter-spacing: .06em;
-}
-
-
-/* ----------------------------------------- */
-/*       */
-#network-operators-build-the-grid svg{
-    max-width: 150px;
- } 
-
 
 /* ----------------------------------------- */
 /* 
