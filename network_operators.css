@@ -43,6 +43,18 @@
     font-weight: 300;
     line-height: 1.5;
 }
+[id*="network-operators"] a {
+    color: #00B299;
+    font-weight: 300;
+    text-decoration: none;
+}
+[id*="network-operators"] a:hover {
+    color: #00B299;
+    font-weight: 300;
+    text-decoration: underline;
+}
+
+
 [id*="network-operators"] h1 {
     font-size: 80px;
     line-height: 1.1;
@@ -72,8 +84,8 @@
     letter-spacing: -0.5px;
 }
 [id*="network-operators"] h4 {
-    /* font-size: 28px; */
-    font-size: 20px;
+    font-size: 28px;
+    /* font-size: 20px; */
     font-weight: 300;
     line-height: 1.5;
     letter-spacing: -0.5px;
