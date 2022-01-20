@@ -164,11 +164,14 @@
     font-weight: 500;
     border-radius: 8px;
     background-color: #00B299;
-    box-shadow: 0 2px 0 0 #008a7e;
+    box-shadow: 0 2px 0 0 #008a7e !important;
  }
  [id*="energy-retailers"].Index-page--has-image a.sqs-block-button-element--medium:hover {
     background-color: #00c2b2;
  }
+ /* [id*="energy-retailers"] .medium-button-style-raised .sqs-alternate-block-style-container .sqs-block-button .sqs-block-button-element--medium {
+    box-shadow: 0 2px 0 0 #008a7e;
+} */
 
 @media screen and (max-width: 1024px){
     #collection-617e2ee0207a5528109a6295 .sqs-layout [class*=sqs-col] {
