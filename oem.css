@@ -217,11 +217,35 @@
 
 /* ----------------------------------------- */
 /* 
+    oem-journey 
+    
+*/
+ 
+#oem-journey {
+    background: #363636;
+}
+
+
+
+
+/* ----------------------------------------- */
+/* 
     oem-lightgrey-section 
     
 */
  
-#oem-customers {
-    /* background: #f6f6f6; */
+#oem-lightgrey {
+    background: #f6f6f6;
+}
+
+
+/* ----------------------------------------- */
+/* 
+    oem-darkgrey-section 
+    
+*/
+ 
+#oem-darkgrey {
+    background: #363636;
 }
 
