@@ -21,6 +21,9 @@
 [id*="network-operators"] ._white {
     color: #fff !important;
 }
+._black {
+    color: #101010 !important;
+}
 
 [id*="network-operators"] p.large {
     /* font-size: 22px; */

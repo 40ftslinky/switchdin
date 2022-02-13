@@ -1,0 +1,227 @@
+/* oem */
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap');
+
+/* oem typography  */
+/* -------------- */
+
+#collection-617e2ee0207a5528109a6295 {
+    font-family: Roboto;
+}
+
+.center {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+._white,
+[id*="oem"] ._white {
+    color: #fff !important;
+}
+
+[id*="oem"] p.large {
+    /* font-size: 22px; */
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 1.5;
+}
+
+[id*="oem"] p.small {
+    /* font-size: 22px; */
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 1.2;
+}
+
+[id*="oem"] p, 
+[id*="oem"] ul, 
+[id*="oem"] li {
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 1.5;
+}
+[id*="oem"] h1 {
+    font-size: 80px;
+    line-height: 1.1;
+    font-weight: 300;
+    letter-spacing: -0.5px;
+}
+[id*="oem"] h2 {
+    font-size: 46px;
+    font-weight: 300; 
+    line-height: 1.1;
+    letter-spacing: -0.5px;
+    color: var(--theme-black);
+    max-width: 23ch;
+}
+
+[id*="oem"] h2.subtitle {
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: center
+}
+
+[id*="oem"] h3 {
+    font-size: 32px;
+    font-weight: 300;
+    line-height: 1.3;
+    letter-spacing: -0.5px;
+}
+[id*="oem"] h4 {
+    /* font-size: 28px; */
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 1.5;
+    letter-spacing: -0.5px;
+}
+[id*="oem"] h4 {
+   font-size: 16px;
+   font-weight: 400;
+   line-height: 1.5;
+   letter-spacing: -0.5px;
+}
+[id*="oem"] h5 {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.2;
+    letter-spacing: -0.5px;
+    margin-top: 0; 
+    margin-bottom: 0.25rem;
+ }
+[id*="oem"] h2 {
+   color: #37424a;
+}
+[id*="oem"] h3,
+[id*="oem"] h4 {
+    color: #00B299;
+}
+[id*="oem"] h5 {
+    color: #00B299;
+ }
+
+[id*="oem"] h1._white,
+[id*="oem"] h2._white,
+[id*="oem"] h3._white,
+[id*="oem"] h4._white {
+    color: #fff;
+}
+[id*="oem"] h4 {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+@media screen and (max-width: 640px){
+    [id*="oem"] p {
+        font-size: 18px;
+    }
+    [id*="oem"] h1 {
+            font-size: 36px;
+    }
+    [id*="oem"] h2 {
+        font-size: 32px;
+    }
+    [id*="oem"] h3 {
+        font-size: 28px;
+    }
+    [id*="oem"] h4 {
+        font-size: 24px;
+    }
+}
+
+[id*="oem"] a[class*="button"]{
+    color:#fff;
+    font-size: 18px;
+    font-weight: 500;
+    border-radius: 8px;
+    background-color: #00B299;
+    padding: 21px 34px;
+    border-color: rgb(0, 179, 164);
+    font-style: normal;
+    text-transform: capitalize;
+    letter-spacing: 0.06em;
+    display: inline-block;
+    width: auto;
+    height: auto;
+    position: relative;
+    transition: background-color 0.1s linear 0s;
+    box-shadow: rgb(0, 138, 126) 0px 2px 0px 0px;
+}
+
+[id*="oem"] a[class*="button"]:hover{
+    background-color: #00c2b2;
+}
+
+
+[id*="oem"].Index-page--has-image a.sqs-block-button-element {
+    color: #fff !important;
+    border: 1px solid #00b3a4 !important;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 500;
+    border-radius: 8px;
+    background-color: #00B299;
+    box-shadow: 0 2px 0 0 #008a7e !important;
+ }
+ [id*="oem"].Index-page--has-image a.sqs-block-button-element--medium:hover {
+    background-color: #00c2b2;
+ }
+ /* [id*="oem"] .medium-button-style-raised .sqs-alternate-block-style-container .sqs-block-button .sqs-block-button-element--medium {
+    box-shadow: 0 2px 0 0 #008a7e;
+} */
+
+@media screen and (max-width: 1024px){
+    #collection-617e2ee0207a5528109a6295 .sqs-layout [class*=sqs-col] {
+            float: none !important;
+            width: auto !important;
+    }
+}
+
+
+/* oem header */
+/* -------------- */
+
+[id*="oem-banner"] h1 {
+    text-align:center;
+}
+
+@media screen and (min-width: 1200px){
+    [id*="oem-banner"] .col.sqs-col-12.span-12 {
+        max-width: 60%;
+        float:none;
+        margin-left: auto;
+        margin-right:auto;
+    }
+}
+
+/* ----------------------------------------- */
+/* oem-banner */
+
+.tweak-overlay-parallax-enabled [id*="oem-banner"].Index-page--has-image {
+    background: rgb(0,117,100);
+    background: linear-gradient(90deg, rgba(0,117,100,0.7) 0%, rgba(55,66,74,0.7) 100%);
+    min-height: calc(75vh - 50px) !important;
+}
+
+#collection-617e2ee0207a5528109a6295 *
+.Parallax-item:first-of-type figure{
+   background-color:rgba(0, 117, 100,0.85);
+}
+#collection-617e2ee0207a5528109a6295 * 
+.Parallax-item:first-of-type  figure img{
+   filter: grayscale(70%);
+   /*mix-blend-mode: overlay;*/
+}
+
+
+/* ----------------------------------------- */
+/* 
+    oem-lightgrey-section 
+    
+*/
+ 
+#oem-customers {
+    /* background: #f6f6f6; */
+}
+
