@@ -71,10 +71,10 @@
 }
 [id*="oem"] h4 {
     /* font-size: 28px; */
-    font-size: 20px;
+    /* font-size: 20px;
     font-weight: 300;
     line-height: 1.5;
-    letter-spacing: -0.5px;
+    letter-spacing: -0.5px; */
 }
 [id*="oem"] h4 {
    font-size: 16px;
@@ -239,6 +239,9 @@
     background: #f6f6f6;
 }
 
+#oem-partnership h4 { 
+    margin-bottom: 1rem;
+}
 
 #oem-partnership .list_wrap ul li { }
 
@@ -250,7 +253,7 @@
 }
 
 @media screen and (max-width: 1024px){
-    .list_wrap {
+    .list_wrap ul {
         columns: unset;
         column-gap: unset;
         padding: 1rem;
