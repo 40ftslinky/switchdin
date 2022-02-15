@@ -359,15 +359,9 @@
 #oem-future-readiness-customers ul {
     margin-top: 0;
     padding-inline-start: 1rem;
-    /* -webkit-columns: 2;
-    -moz-columns: 2;
-    columns: 2;
-    -webkit-column-gap: 2em;
-    -moz-column-gap: 2em;
-    column-gap: 2em;  */
 }
 
-#oem-future-readiness li {
+#oem-future-readiness-customers li {
     -webkit-column-break-inside: avoid; /* Chrome, Safari, Opera */
     page-break-inside: avoid; /* Firefox */
     break-inside: avoid; /* IE 10+ */
@@ -375,10 +369,10 @@
     /* color:rgba(0, 178, 153, 1); */
 }
 
-#oem-future-readiness-customers ul {
+#oem-future-readiness-customers ul.tick {
     list-style: none; /* Remove default bullets */
 }
-#oem-future-readiness-customers ul li:before {
+#oem-future-readiness-customers ul.tick li:before {
     content: '✓';
     font-weight: bold; /* If you want it to be bold */
     display: inline-block; /* Needed to add space between the bullet and the text */
