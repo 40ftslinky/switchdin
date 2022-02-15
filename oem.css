@@ -285,7 +285,7 @@
   
 .list_wrap ul li::before {
     content: "\2022";  /* Add content: \2022 is the CSS Code/unicode for a bullet */
-    color: rgba(0, 178, 153, 1);; /* Change the color */
+    color: rgba(0, 178, 153, 1); /* Change the color */
     font-weight: bold; /* If you want it to be bold */
     display: inline-block; /* Needed to add space between the bullet and the text */
     width: 1em; /* Also needed for space (tweak if needed) */
@@ -296,6 +296,61 @@
 
 
 #oem-future-readiness {}
+
+#oem-future-readiness .list_wrap ul {
+    margin-top: 0;
+    padding-inline-start: 1rem;
+    -webkit-columns: 2;
+    -moz-columns: 2;
+    columns: 2;
+    -webkit-column-gap: 2em;
+    -moz-column-gap: 2em;
+    column-gap: 2em; 
+}
+
+#oem-future-readiness .list_wrap li {
+    -webkit-column-break-inside: avoid; /* Chrome, Safari, Opera */
+    page-break-inside: avoid; /* Firefox */
+    break-inside: avoid; /* IE 10+ */
+    /*  */
+    /* color:rgba(0, 178, 153, 1); */
+}
+
+#oem-future-readiness .list_wrap ul {
+    list-style: none; /* Remove default bullets */
+}
+  
+#oem-future-readiness .list_wrap ul li::before {
+    content: "\2022";  /* Add content: \2022 is the CSS Code/unicode for a bullet */
+    /* color: rgba(0, 178, 153, 1);  */
+    /* Change the color */
+    font-weight: bold; /* If you want it to be bold */
+    display: inline-block; /* Needed to add space between the bullet and the text */
+    width: 1em; /* Also needed for space (tweak if needed) */
+    margin-left: -1em; /* Also needed for space (tweak if needed) */
+}
+
+#oem-future-readiness .list_wrap ul li:nth-of-type(1):before {
+    content: url(
+        "https://40ftslinky.github.io/switchdin/img/readiness/readiness_01.png"
+    );  /* Add content: \2022 is the CSS Code/unicode for a bullet */
+}  
+#oem-future-readiness .list_wrap ul li:nth-of-type(2):before {
+    content: url(
+        "https://40ftslinky.github.io/switchdin/img/readiness/readiness_02.png"
+    );  /* Add content: \2022 is the CSS Code/unicode for a bullet */
+}  
+#oem-future-readiness .list_wrap ul li:nth-of-type(3):before {
+    content: url(
+        "https://40ftslinky.github.io/switchdin/img/readiness/readiness_03.png"
+    );  /* Add content: \2022 is the CSS Code/unicode for a bullet */
+}  
+#oem-future-readiness .list_wrap ul li:nth-of-type(4):before {
+    content: url(
+        "https://40ftslinky.github.io/switchdin/img/readiness/readiness_04.png"
+    );  /* Add content: \2022 is the CSS Code/unicode for a bullet */
+}  
+
 
 /* ----------------------------------------- */
 
