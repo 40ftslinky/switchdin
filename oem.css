@@ -297,6 +297,40 @@
 
 #oem-future-readiness {}
 
+/* ----------------------------------------- */
+
+#oem-future-readiness-customers {}
+
+/* ----------------------------------------- */
+
+#oem-trusted {}
+
+/* ----------------------------------------- */
+
+#oem-discover {}
+
+
+#oem-discover h2{
+    color:#fff;
+}
+#oem-discover svg{
+   max-width: 150px;
+}
+
+#oem-discover.Index-page--has-image a.sqs-block-button-element {
+   color: #fff !important;
+   border: 1px solid #00b3a4 !important;
+   color: #fff;
+   font-size: 18px;
+   font-weight: 500;
+   border-radius: 8px;
+   background-color: #00B299;
+   box-shadow: 0 2px 0 0 #008a7e;
+}
+#oem-discover.Index-page--has-image a.sqs-block-button-element--medium:hover {
+   background-color: #00c2b2;
+}
+
 
 /* ----------------------------------------- */
 /* 
