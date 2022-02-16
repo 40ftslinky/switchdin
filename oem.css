@@ -320,11 +320,10 @@
     break-inside: avoid; /* IE 10+ */
     /*  */
     /* color:rgba(0, 178, 153, 1); */
-    margin-left: 30px;
-    margin-bottom: 1rem;
-
     list-style-position: inside;
-
+    /*  */
+    margin-left: 60px;
+    margin-bottom: 3rem;
 }
 
 #oem-future-readiness ul li:before {
@@ -332,9 +331,10 @@
     display: inline-block;
     height: 30px;
     width: 60px;
-    background-size: 30px;  
+    background-size: fill!important;  
     background-repeat: no-repeat; 
-    margin-right: 15px;
+    margin-left: -75px;
+    background-size: cover!important;
 }
  
 #oem-future-readiness ul li:nth-of-type(1):before {
