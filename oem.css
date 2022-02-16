@@ -327,9 +327,41 @@
 
 }
 
-
+#oem-future-readiness ul li:before {
+    content: '';
+    display: inline-block;
+    height: 30px;
+    width: 60px;
+    background-size: 30px;  
+    background-repeat: no-repeat; 
+    margin-right: 15px;
+}
+ 
+#oem-future-readiness ul li:nth-of-type(1):before {
+    background: url(
+        "https://40ftslinky.github.io/switchdin/img/readiness/readiness_01.png"
+    );  
+}
+ 
+#oem-future-readiness ul li:nth-of-type(2):before {
+    background: url(
+        "https://40ftslinky.github.io/switchdin/img/readiness/readiness_02.png"
+    );  
+}
+ 
+#oem-future-readiness ul li:nth-of-type(3):before {
+    background: url(
+        "https://40ftslinky.github.io/switchdin/img/readiness/readiness_03.png"
+    );  
+}
+ 
+#oem-future-readiness ul li:nth-of-type(4):before {
+    background: url(
+        "https://40ftslinky.github.io/switchdin/img/readiness/readiness_04.png"
+    );  
+} 
   
-
+/* 
 #oem-future-readiness ul li:nth-of-type(1) {
     list-style-image: url(
         "https://40ftslinky.github.io/switchdin/img/readiness/readiness_01.png"
@@ -349,7 +381,8 @@
     list-style-image: url(
         "https://40ftslinky.github.io/switchdin/img/readiness/readiness_04.png"
     );  
-
+} 
+*/
 
 /* ----------------------------------------- */
 
