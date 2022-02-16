@@ -355,7 +355,6 @@
         "https://40ftslinky.github.io/switchdin/img/readiness/readiness_03.png"
     );  
     transform: translate(10px,30px);
-
 }
  
 #oem-future-readiness ul li:nth-of-type(4):before {
@@ -363,7 +362,6 @@
         "https://40ftslinky.github.io/switchdin/img/readiness/readiness_04.png"
     );  
     transform: translate(10px,30px);
-
 } 
   
 /* 
@@ -418,7 +416,13 @@
     margin-left: -1.5em; /* Also needed for space (tweak if needed) */
 }
 
-
+@media screen and (max-width: 880px){
+    [id*="oem"] ul {
+        -webkit-columns: 2;
+        -moz-columns: 2;
+        columns: 2;
+    }
+}
 
 /* ----------------------------------------- */
 
