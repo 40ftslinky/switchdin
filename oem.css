@@ -354,12 +354,16 @@
     background: url(
         "https://40ftslinky.github.io/switchdin/img/readiness/readiness_03.png"
     );  
+    transform: translate(10px,30px);
+
 }
  
 #oem-future-readiness ul li:nth-of-type(4):before {
     background: url(
         "https://40ftslinky.github.io/switchdin/img/readiness/readiness_04.png"
     );  
+    transform: translate(10px,30px);
+
 } 
   
 /* 
