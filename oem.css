@@ -323,7 +323,7 @@
     list-style-position: inside;
     /*  */
     margin-left: 75px;
-    margin-bottom: 3rem;
+    margin-bottom: 2rem;
 }
 
 #oem-future-readiness ul li:before {
@@ -331,7 +331,7 @@
     display: inline-block;
     height: 40px;
     width: 75px;
-    transform: translate(0,30px);
+    transform: translate(-20px,30px);
     margin-left: -75px;
 
     background-repeat: no-repeat!important; 
